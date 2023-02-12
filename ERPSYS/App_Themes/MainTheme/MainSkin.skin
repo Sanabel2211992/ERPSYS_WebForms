@@ -1,0 +1,34 @@
+﻿<asp:GridView runat="server" 
+               AutoGenerateColumns="False" 
+               CssClass="gvDefault" 
+               HeaderStyle-CssClass="gvDefaultHeader" 
+               FooterStyle-CssClass="gvDefaultFooter"
+               RowStyle-CssClass="gvDefaultdRow"
+               SelectedRowStyle-CssClass=""
+               EditRowStyle-CssClass="gvDefaultEditRow"
+               EmptyDataRowStyle-CssClass="gvDefaultEmptyData"
+               SkinId="gvDefault">
+</asp:GridView>
+<asp:GridView runat="server" 
+               AutoGenerateColumns="False" 
+               CssClass="gvView" 
+               HeaderStyle-CssClass="gvViewHeader" 
+               FooterStyle-CssClass="gvViewFooter"
+               RowStyle-CssClass="gvViewRow"
+               EmptyDataRowStyle-CssClass="gvViewEmptyData"
+               SkinId="gvView">
+</asp:GridView>
+<asp:GridView runat="server" 
+               AutoGenerateColumns="False" 
+               CssClass="gvbz" 
+               HeaderStyle-CssClass="gvbzHeader" 
+               FooterStyle-CssClass="gvbzFooter"
+               PagerStyle-CssClass=" gvbzPagerFooter"
+               RowStyle-CssClass="gvbzRow"
+               AlternatingRowStyle-CssClass="gvbzdAlternatingRow"
+               SelectedRowStyle-CssClass="gvbzSelectedRow"
+               EditRowStyle-CssClass="gvbzEditRow"
+               EmptyDataRowStyle-CssClass="gvbzEmptyData"
+               SkinId="gvbz">
+</asp:GridView> 
+

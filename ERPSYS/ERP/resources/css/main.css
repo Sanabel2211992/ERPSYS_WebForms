@@ -1,0 +1,2003 @@
+﻿html {
+    overflow-y: scroll;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    -moz-min-width: 1100px;
+    -ms-min-width: 1100px;
+    -o-min-width: 1100px;
+    -webkit-min-width: 1100px;
+    min-width: 1100px;
+    margin: 0 auto 40px auto;
+}
+
+.min-container {
+    width:1200px;
+    margin: 0 auto;
+    border: 1px dotted #fff;
+    padding: 10px;
+    background-color: #fff;
+    min-height: 500px;
+}
+
+.home-logo {
+    width:100%;
+    margin:0 auto;
+    padding:50px 0 0 0;
+}
+
+.home-logo img {
+   width:200px;
+   margin:60px 40%;
+}
+
+.home-logo-s{
+    height: 120px;
+    clear:both;
+    position:fixed;
+    bottom: 50px;
+    right: 170px;
+}
+
+.home-logo-s img {
+    float: right;
+    padding: 10px;
+}
+
+input {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #004572;
+    margin: 0 auto;
+    color: #fff;
+    width: 100%;
+}
+
+.header-table {
+    width: 100%;
+    border: 0;
+    padding: 0 4%;
+}
+
+.version_co {
+    color: #cbbb09;
+    font-size: 13pt;
+    padding-left: 5px
+
+}
+
+.logo {
+    margin: 0;
+    line-height: 33px;
+    height: 42px;
+}
+
+.logo img {
+    border: 0;
+}
+
+.name_co {
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 8px;
+}
+
+.user-pic {
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    border: 1px solid #ffffe6;
+}
+
+/**width All Class**/
+
+.header.menu .msg .contant {
+    width: 100%;
+}
+
+/******** Padding header & Menu *******/
+
+.header img {
+    padding: 2px;
+}
+
+.visit-link:link {
+    text-decoration:none ;
+    color: blue;
+}
+
+.visit-link:active {
+    text-decoration:none ;
+    color: blue;
+}
+
+.visit-link:visited {
+    text-decoration:none ;
+    color: blue; 
+}
+
+.line {
+    background: #fcfbfb;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fcfbfb 0%, #e6e6e6 88%, #e6e6e6 88%, #dfdfdf 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfbfb), color-stop(88%, #e6e6e6), color-stop(88%, #e6e6e6), color-stop(100%, #dfdfdf));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #fcfbfb 0%, #e6e6e6 88%, #e6e6e6 88%, #dfdfdf 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #fcfbfb 0%, #e6e6e6 88%, #e6e6e6 88%, #dfdfdf 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #fcfbfb 0%, #e6e6e6 88%, #e6e6e6 88%, #dfdfdf 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #fcfbfb 0%, #e6e6e6 88%, #e6e6e6 88%, #dfdfdf 100%);
+    /* W3C */
+    
+    height: 33px;
+    width: 100%;  
+}
+
+.position-menu{
+    width:1200px;
+    margin:0 auto;
+}
+
+.line-menu { 
+    margin-left:-19px;
+}
+
+.msg {
+    top: 0;
+    height: 0px;
+}
+
+.contant {
+    background-color: #fff;
+    height: 2000px;
+    margin: 0 0 20px 0;
+}
+.min-menu {
+    color: #d2d5c0;
+    padding: 10px;
+}
+
+/*******/
+/* END header******/
+
+.footer {
+    width: 100%;
+    background:#004572;
+    height:25px;
+    clear:both;
+    position:fixed;
+    bottom:0;
+    margin:20px 0 0 0;
+
+    
+}
+.footer h3 {
+    font-size: 11px;
+    font-weight: 400;
+    padding:0 11%;
+    color:#fff;
+    float:right;
+    line-height:0px;
+}
+/*login page*/
+
+.login-contant {
+    width: 320px;
+    margin: 10% auto 10% auto;
+    background-color: #eee;
+    padding: 30px 30px;
+ 
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.50);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.50);
+    box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.50);
+}
+.login-contant h2 {
+    color: #5d5d5d;
+    font-weight: 400;
+    margin-top: -5px;
+    margin-bottom: -15px;
+}
+.login-contant > p {
+    margin-bottom: -15px;
+    color: #5d5d5d;
+}
+.login-contant fieldset {
+    border: 0;
+}
+.login-contant fieldset legend {
+    margin-left: -19px;
+    margin-bottom: -25px;
+    color: #5d5d5d;
+}
+.Legend-P {
+    margin: 5px;
+    padding:10px 0;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+.star{
+    float:right;
+    position:absolute;
+    left:335px;
+    top:30px;
+    
+}
+.star1{
+    float:right;
+    position:absolute;
+    left:335px;
+    top:30px;
+    
+}
+
+.Legend-P input {
+    padding: 5px;
+    
+}
+/*
+.lnk-add {
+    color: #5d5d5d;
+}
+.lnk-add a {
+    text-decoration: none;
+    color: #5d5d5d;
+   
+   
+    padding: 3px 7px;
+}
+.lnk-add a:hover {
+    border-bottom:3px solid #000;
+    color: #000;
+}*/
+/*end login page*/
+
+fieldset {
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p {
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label,
+fieldset.register label,
+fieldset.changePassword label {
+    display: block;
+}
+
+fieldset label.inline {
+    display: inline;
+}
+
+input.textEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+.submitButton {
+    text-align: right;
+  
+      padding-right: 10px;
+}
+.submitButton-login {
+    text-align: right;
+    padding-right: 10px;
+    margin-right: -10px;
+    margin-top: -25px;
+}
+
+div.accountInfo {} .failureNotification {
+    font-size: 1.2em;
+    color: Red;
+}
+
+.date-picker {
+    width: 160px;
+    vertical-align: central;
+}
+
+/*rgv style*/
+.rgvEmptyData
+{
+	height: 75px;
+	background-color :White;
+	color: black;
+	text-align:center;
+}
+
+.rgvEmptyData td
+{
+	font-weight:bold;
+    font-size: 10pt;
+}
+
+/*rg style*/
+
+.rgEmptyData
+{
+    width: 100%;
+	height: 50px;
+	background-color :White;
+	color: black;
+	text-align:center;
+}
+
+.rgEmptyData td
+{
+    font-size: 10pt;
+}
+
+.rginnerEmptyData
+{
+    width: 100%;
+	height: 30px;
+	background-color :White;
+	color: black;
+	text-align:center;
+}
+
+.rginnerEmptyData td
+{
+    font-size: 8pt;
+}
+
+/* Tables(div-minpage) */
+
+.top-tbl-main {
+    position:absolute;
+    left:0;
+    right:0;
+    top:88px;
+    background-color:#272727;
+    padding: 10px 180px;
+}
+
+.top-tbl-main h1 {
+     font-weight:100;
+     color:#fff;
+     font-size:40px;
+     margin:0;
+    }
+
+.top-tbl-main input {
+        width:500px;
+        height:40px;
+        padding:10px;
+        margin:10px 0 30px 0;
+}
+
+.tbl-main {
+    width: 100%;
+    position: relative;
+}
+
+.tbl-inner {
+    border-spacing: 1px;
+    border-collapse: separate;  
+} 
+
+.tbl-inner td {
+    padding: 1px;
+    direction: ltr;
+}
+
+.tbl-link {
+
+} 
+.tbl-grid {
+    width: 100%;
+}
+
+.tbl-uc-op {
+    position: relative;
+} 
+
+.div-uc-op {
+    position: relative;
+    width: 900px;
+} 
+
+.uc-pos {
+    position: absolute;
+    top: -40px;
+    right: 0px;
+} 
+
+.tbl-link{
+
+}
+
+/*14.11.2016*/
+.d-grid-op {
+    position: relative;
+    width: 1050px;
+}
+
+/* GRID Controls Main Sub Add Edit Opertaions Postion*/
+.sm-so-ma-p{
+    position: absolute;
+    top: -40px;
+    right: 0px;
+}
+
+.sm-so-me-p{
+    position: absolute;
+    top: -40px;
+    right: 0px;
+}
+.sm-so-sa-p{
+    position: absolute;
+    top: -40px;
+    right: 0px;
+}
+
+.sm-so-se-p{
+    position: absolute;
+    top: -40px;
+    right: 0px;
+}
+
+.inv-st-e-p{
+    position: absolute;
+    top: -10px;
+    left: 190px;
+}
+
+.ma-a-a-p{
+    position: absolute;
+    top: -40px;
+    right: 0px;
+}
+
+.ma-a-e-p{
+    position: absolute;
+    top: -33px;
+    left: 250px;
+}
+/**/
+
+/*for view page*/
+
+.tbl-inner-view {
+    border-spacing: 2px;
+    border-collapse: separate;  
+} 
+
+.tbl-inner-view td {
+    padding: 2px;
+}
+
+.tbl-grid-view {
+    
+} 
+.tbl-op-view,
+.tbl-op-view.th,
+.tbl-op-view.td {
+    text-align: center;
+}
+.sec-title {
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 1px 8px 1px;
+}
+
+.grid-title {
+    color: #464242;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+.page-header {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    margin: 5px 5px 10px;
+}
+
+/*
+.page-title {
+    font-weight: 600;
+    color: #000;
+    float: right;
+    font-size: 15px;
+    text-transform: capitalize;
+    display:block;
+    text-align:right;
+    padding:10px 0 0 0;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding-left:5px;
+}
+*/
+.tbl-op {} .tbl-op.th,
+.tbl-op.td {
+    padding: 10px;
+}
+
+.tbl-op-center.th,
+.tbl-op-center,
+.td {
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+
+.tbl-op-center {
+    clear:both;
+    width: 100%;
+    margin:0 auto;
+}
+
+.logout {}
+
+.curr-code {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.field-title {
+    color: #151515;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.field-val {
+    font-size: 12px;
+} 
+
+.fs-inner {
+    position:relative;
+
+} .fs-inner-legend {
+    color: #464242;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2px 4px 8px 4px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+.field-val input {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    resize:none;
+    margin-bottom: 0px;
+}
+
+.field-val textarea {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    resize:none;
+}
+
+.field-val Select {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    height:22px;   
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+.uc-field-title {
+    font-size: 0.9em;
+    color: #151515;
+    font-weight: 400;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+   /*text-align:right;*/
+}
+
+.uc-field-val input {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+}
+
+.uc-field-val textarea {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    resize: none;
+}
+
+.uc-field-val Select {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+.uc-field-val td {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+}
+
+/*summary*/
+.sum-field-title {
+    font-size: 0.9em;
+    color: #151515;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.sum-field-val {
+    font-weight: 400;
+    font-size: 13px;
+} 
+/**/
+
+.read-only input  {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    background-color:#dfdfdf;
+}
+
+.read-only select  {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    background-color:#dfdfdf;
+}
+
+.val-error {
+    color: red;
+    font-size: x-small;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.tbl-gedit {
+    padding:10px 3px 10px 10px;   
+}
+
+.tbl-gedit td {
+    padding: 2px 0;
+}
+
+.gedit-field-title {
+    color: #151515;
+    font-weight: 500;
+    font-size: 12px;
+    margin:10px 0;   
+}
+
+.gedit-field-val {
+    font-weight: 400;
+    font-size: 11px;
+    margin:10px 0;
+} 
+
+.gedit-field-val Select {
+    color: #151515;
+    font-weight: 500;
+    font-size: 11px; 
+    height:22px;      
+}
+
+/*to delete*/
+.btn-Add-edit{ 
+    width: 75px;
+    height:25px; 
+}
+/*to delete*/
+.m-add-save {
+    position: absolute; 
+    top: -35px;
+    bottom: 0;
+    left:200px;   
+}
+/*to delete*/
+.m-add-Cancel {
+    position: absolute;
+    top: -35px;
+    bottom: 0;
+    left:280px;   
+}
+/*to delete*/
+.m-edit-save {
+   position:absolute;
+   top:-25px;
+   left:123px;  
+}
+/*to delete*/
+.m-edit-Cancel {
+    position:absolute;
+    left:203px;
+    top:-25px; 
+}
+
+.s-add-save {
+    position: absolute; 
+    top: -25px;
+    bottom: 0;
+    left:200px;   
+}
+
+.s-add-Cancel {
+    position: absolute;
+    top: -25px;
+    bottom: 0;
+    left:280px;   
+}
+
+.s-edit-save {
+   position:absolute;
+   top:-25px;
+   left:250px;
+    
+}
+
+.s-edit-Cancel {
+    position:absolute;
+    left:333px;
+    top:-25px; 
+}
+
+.qg-edit-save {
+    position: absolute; 
+    top: 0px;
+    bottom: 0;
+    left: 35px;   
+}
+
+.qg-edit-cancel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 130px;   
+}
+
+/* Buttons*/
+.lnkbtn-add-item {
+    border: 1px solid #464242;
+    width: 100px;
+    padding: 3px;
+}
+
+.po-add-item {
+    position: absolute;
+    width: 100px;
+    height:25px;
+    top: -80px;
+    bottom: 0;
+    left:130px; 
+}
+
+.grn-add-item {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 435px;
+}
+
+.relative {
+    position: relative;   
+}  
+
+.kit-add-item {
+    position: absolute;
+    width: 100px;
+    height:25px;
+    top: -80px;
+    bottom: 77px;
+    left:130px;   
+}
+
+.btn-op-large {
+    border: 1px solid #464242;
+    width: 100px;
+    padding: 3px;
+    transition: all .2s ease;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 25px;
+    height: 31px;
+}
+
+.btn-op {
+    border: 1px solid #464242;
+    width: 100px;
+    padding: 3px;
+    transition: all .2s ease;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+.btn-op:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.btn-upload {
+    border: 1px solid #464242;
+    width: 100px;
+    padding: 3px;
+    transition: all .2s ease;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 25px;
+}
+
+.center-btn {
+    width: 100%;
+    clear:both;
+    padding: 10px 0;   
+}
+
+.right-btn {
+    width: 100%;
+    text-align: right;
+    padding: 10px 0;
+}
+
+.left-btn {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.btn-save {
+    border: 1px solid #464242;
+    width: 100px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+.btn-save:hover {
+    text-decoration: underline;
+    color: #000;  
+}
+
+.btn-cancel {
+    border: 1px solid #464242;
+    width: 100px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+.btn-cancel:hover {
+    text-decoration: underline;
+    color: #000;    
+}
+.btn-search {
+    border: 1px solid #464242;
+    width: 100px;
+    padding: 3px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 0px;
+    border-radius: 25px;
+    border-radius: 25px;
+}
+
+.btn-search:hover {
+    text-decoration: underline;
+    color: #000;   
+}
+.btn-delete {
+    border: 1px solid #464242;
+    width: 100px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 20px;
+     border-radius: 25px;
+}
+.btn-delete:hover{
+    text-decoration: underline;
+    color: #000; 
+}
+
+.btn-print {
+    border: 1px solid #464242;
+    width: 100px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+.btn-print:hover {
+     text-decoration: underline;
+    color: #000;  
+}
+
+/*****************Start Inktn-Add***************************/
+
+.lnkbtn-add {
+    display:inline-block;
+	color:#004572;
+	font-size:13px;
+	width:auto;
+    font-weight: 400;
+	text-decoration:none;
+    text-align:center;    
+}
+
+.lnkbtn-add:active {
+	position:relative;
+	top:1px;
+}
+
+.lnkbtn-add span {
+    font-size:16px;
+    font-weight:bolder;
+    color:green;
+    }
+
+/***********************************end  Inkbtn-Add *************************************/
+/*user profile menu*/
+/* main menu
+----------------------------*/
+
+#ddmenu {
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    /*Specify the alignment of the whole UL if UL is not width:100%;*/
+    
+    letter-spacing: normal;
+}
+
+.right-box {
+    min-width:54px;
+    float:right;
+}
+
+#ddmenu ul {
+    text-align: center;
+    /* Alignment of each top-level menu items within the UL */
+    
+    min-width: 15px;
+    padding: 0;
+    font-size: 0;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    z-index: 999999990;
+    max-width: 1400px;
+    float: right;
+}
+
+#ddmenu li {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    /*for IE6-7*/
+    
+    position: relative;
+    color: #eee;
+    line-height: 10px;
+    /*This determines the height of the menu*/
+    
+    outline: none;
+}
+
+#ddmenu li.full-width {
+    position: static;
+}
+
+#ddmenu li.over {
+    color: #FFF;
+    /*****back ground*****/
+}
+
+#ddmenu .top-heading {
+    font-weight: bold;
+    white-space: nowrap;
+    padding-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+}
+
+/* sub-menu layout
+----------------------------*/
+
+#ddmenu .dropdown {
+    width: auto;
+    left: 0px;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-top: none;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #ccc \9;
+    /*fallback for old IE*/
+}
+
+#ddmenu li.full-width .dropdown {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: -1px;
+    /*Set to 0 if UL has no border*/
+
+}
+#ddmenu .offset300 {
+    left: -300px;
+    right: auto;
+}
+
+#ddmenu .right-aligned {
+    left: auto;
+    right: 0px;
+}
+
+#ddmenu li.over .dropdown {
+    display: block;
+}
+
+#ddmenu .dd-inner {
+    text-align: center;
+    padding: 5px;
+    background-color: #FFF;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+/* links in sub menu
+--------------------------text inside box profile--*/
+
+#ddmenu .dropdown a {
+    display: table-row;
+    *display: block;
+    color: #000;
+    line-height: 14px;
+    text-decoration: none;
+    padding: 0;
+}
+
+#ddmenu .dropdown a:hover,
+#ddmenu .dropdown a:focus {
+    text-decoration: underline;
+}
+/* blocks within the sub-menu
+-----------------------------*/
+
+#ddmenu div.column {
+    text-align: left;
+    vertical-align: top;
+    /*or middle*/
+    
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    white-space: normal;
+    min-width: 170px;
+    padding: 0 10px;
+    border-right: 1px solid #999;
+}
+
+#ddmenu div.dd-inner div:last-child {
+    border-right: none;
+}
+
+#ddmenu div.column h3 {
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+/* Image Position */
+
+.img-profile-user { 
+    position:absolute;
+}
+
+.img-profile-user  img {
+    border:solid 3px #eee;
+/*
+-webkit-border-bottom-left-radius:20px;
+-moz-border-bottom-left-radius:20px;
+-o-border-bottom-left-radius:20px;
+border-bottom-left-radius:20px;
+
+-webkit-border-top-left-radius:20px;
+-moz-border-top-left-radius:20px;
+-o-border-top-left-radius:20px;
+border-top-left-radius:20px;
+*/
+}
+
+.user-set-pos {
+    top: 25px;
+    right: 12px;
+}
+
+.user-prof-pos {
+    top: 5px;
+    left: 135px;
+}
+
+.img-profile-user-update {
+    position: absolute; 
+    display: none;
+    height: 40px;
+    width: 157px;
+    top: 122px;
+    left: 5px;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.img-profile-user-update span {
+    color: #fff;
+    line-height: 40px;
+    font-size: 9pt;
+    padding-left: 10px;
+}
+
+.img-profile-user-update .icon-update {
+    border: none;
+    padding-left: 3px;
+}
+
+/*********************Position *********************/
+
+.img-item-pos1 { 
+    position:absolute;
+    top: 47px;
+    right: 15px;
+    width: 165px;
+}
+
+.img-item-pos2 { 
+    position:absolute;
+    top: 95px;
+    left: 1060px;
+    width: 165px;
+}
+
+.img-item-pos3 { 
+    position:absolute;
+    top: 47px;
+    left: 1060px;
+    width: 165px;
+}
+
+.item-view-prop { 
+    position:absolute;
+    top: 200px;
+    right: 15px;
+}
+
+.item-view-prop2 { 
+    position:absolute;
+    top: 240px;
+    left: 1060px;
+}
+
+.item-view-prop3 { 
+    position:absolute;
+    top: 325px;
+    right: 15px;
+}
+
+.ts-view{
+    padding-top: 15px !important;
+      }
+
+/*********************Access Denied *********************/
+.AccessDenied-page {
+    width:410px;
+    margin:50px auto;
+}
+
+.AccessDenied-page img {
+    margin:5px;   
+    float:left;
+    padding-left:60px;
+}
+    
+.AccessDenied-page img p {
+    font-family:Vangard;
+    color:red;    
+}
+
+.Access-p {
+    font-family:Verdana;
+    color:red;
+    font-weight:bolder;
+    font-size:24px; 
+    margin:5px;
+    float:right;
+    padding-right:100px;
+}
+
+.text-AccessDenied {
+    width:100%;
+    clear:both;
+}
+
+.TabMultiPage {
+    border: 1px solid #cdcdcd;
+}
+
+.date-note-po {
+    position: absolute;
+    top: 18px;
+    left: 500px;
+}
+
+.date-note {
+    font-weight: bold;
+    font-size: 8pt;
+    width: auto;
+    color:maroon;
+}
+
+.mp-view {
+    border: 1px solid #cdcdcd;
+    padding: 20px 10px 20px 10px;
+}
+
+.grid-note  {
+    font-weight: bold;
+    font-size: 8pt;
+    margin-top: 5px;
+}
+
+.note {
+    color: #555;
+    border-radius: 10px;
+    font-family: Tahoma,Geneva,Arial,sans-serif;
+    font-size: 13px;
+    padding:10px 10px 10px 36px;
+    background: #e3f7fc url('../images/notification/notice.png') no-repeat 10px 50%;
+    border: 1px solid #8ed9f6;
+}
+
+.note span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.highlighte  {
+    font-weight: 700;
+    font-size: 10pt;
+    color:maroon;
+}
+
+
+/******Tables Design********/
+
+/*search*/
+
+.tbl-search {
+    border-spacing: 2px;
+    border-collapse: separate;
+    position: relative;
+} 
+
+.tbl-search td {
+    padding: 2px;
+    direction: ltr;
+}
+
+.fs-search {} .fs-search-legend {
+    color: #464242;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2px 4px 8px 4px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+.ft-search {
+    color: #151515;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.fv-search {
+    font-size: 12px;
+} 
+
+.fv-search input {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    resize:none;
+}
+
+.fv-search textarea {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    resize:none;
+}
+
+.fv-search Select {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    height:22px;   
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+/*view*/
+
+.tbl-view {
+    border-spacing: 2px;
+    border-collapse: separate;  
+} 
+
+.tbl-view th {
+}
+
+.tbl-view td {
+    padding: 2px;
+    direction: ltr;
+    height: 20px;
+}
+
+.fs-view {} .fs-view-legend {
+    color: #464242;
+    font-size: 15px;
+    padding: 1px 2px 4px 2px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+ /*large Note*/
+.lnote  {
+    font-weight: bold;
+    font-size: 13pt;
+    margin-top: 5px;
+    color: maroon;
+}
+
+/*paragraph title*/
+.pt-view  {
+    font-weight: bold;
+    font-size: 10pt;
+    margin-top: 5px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*field title*/
+.ft-view {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/*field value*/
+.fv-view {
+    font-size: 13px;
+} 
+
+.fv-view input {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    resize:none;
+}
+
+.fv-view textarea {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    resize:none;
+}
+
+.fv-view Select {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    height:22px;   
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+/*edit*/
+
+.tbl-edit {
+    border-spacing: 2px;
+    border-collapse: separate;
+    position: relative;
+} 
+
+.tbl-edit th {
+}
+
+.tbl-edit td {
+    padding: 1px;
+    direction: ltr;
+    height: 20px;
+}
+
+.fs-edit {
+    position:relative;
+
+} .fs-edit-legend {
+    color: #464242;
+    font-size: 15px;
+    padding: 2px 4px 4px 4px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+.ft-edit {
+    /*font-weight: 600;*/
+    font-size: 13px;
+    vertical-align: central;
+}
+
+.fv-edit {
+    font-size: 12px;
+    vertical-align:central;
+} 
+
+.fv-edit input {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    resize:none;
+    padding-left: 5px;
+}
+
+.fv-edit textarea {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    resize:none; 
+    padding-left: 5px;
+}
+
+.fv-edit Select {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+.ft-edit-sum{
+    font-size: 0.9em;
+    color: #151515;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.fv-edit-sum{
+    font-weight: 400;
+    font-size: 13px;
+}
+/*Grid Edit*/
+.ft-gedit {
+    color: #151515;
+    font-weight: 500;
+    font-size: 12px;
+    margin:10px 0;
+    vertical-align: text-top;
+}
+
+.fv-gedit {
+    font-weight: 400;
+    font-size: 11px;
+    margin:10px 0;
+} 
+
+.fv-gedit Select {
+    color: #151515;
+    font-weight: 500;
+    font-size: 11px; 
+    height:22px;      
+}
+
+/*grid inner controls */
+
+.tbl-uc-gedit {
+    padding:10px 3px 10px 10px;   
+}
+
+.tbl-uc-gedit td {
+    padding: 2px 0;
+}
+
+.ft-uc-gedit {
+    color: #151515;
+    font-weight: 500;
+    font-size: 12px;
+    margin:10px 0;   
+    width: 125px;
+}
+
+.fv-uc-gedit {
+    font-weight: 400;
+    font-size: 11px;
+    margin:10px 0;
+    width: 175px;
+} 
+
+.fv-uc-gedit input {
+    font-size: 12px !important;
+    resize:none;
+    padding-left: 5px;
+}
+
+.fv-uc-gedit Select {
+    color: #151515;
+    font-weight: 500;
+    font-size: 12px; 
+    height:22px;      
+}
+
+div.RadGrid .grdlink a {
+    text-decoration:none;
+    color: #1160B7 !important;
+    cursor: pointer;
+}
+
+div.RadGrid .grdlink:hover {
+    text-decoration: underline;
+}
+
+.grdlink {
+    text-decoration:none;
+    color: #1160B7 !important;
+    cursor: pointer;
+}
+
+.grdlink:hover {
+    text-decoration: underline;
+}
+
+/*Tabels */
+.tbl-uc {
+    padding: 0px 0px 0px 0px;   
+}
+
+.tbl-uc td {
+    padding: 0px 0;
+}
+
+.tbl-uc-op{
+    position: relative;
+}
+
+/*Field set*/
+.fs-uc {} .fs-uc-legend {
+    color: #464242;
+    font-size: 13px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+/*Buttons*/
+/*Grid Buttons*/
+.btn-uc{ 
+    width: 75px;
+    height:25px; 
+}
+
+.btn-uc-bom{ 
+    width: 100px;
+    height: 25px; 
+}
+
+.btn-uc-st{ 
+    width: 100px;
+    height: 25px; 
+}
+
+/*Buttons Positions*/
+.save-bom {
+    position: absolute; 
+    top: -55px;
+    bottom: 0;
+    left: 720px;   
+}
+
+.save-p {
+    position: absolute; 
+    top: -15px;
+    bottom: 0;
+    left: 690px;   
+}
+
+.btn-save-sm-jo {
+    position: absolute;
+    top: 165px;
+    right: 25px;
+}
+
+.btn-save-sm-so {
+    position: absolute;
+    top: 185px;
+    right: 25px;
+}
+
+.btn-save-sm-si {
+    position: absolute;
+    top: 260px;
+    right: 25px;
+}
+
+.btn-save-sm-pro {
+    position: absolute;
+    top: 210px;
+    right: 25px;
+}
+
+.btn-save-sc-po {
+    position: absolute;
+    top: 370px;
+    right: 25px;
+}
+
+.btn-save-sc-mr {
+    position: absolute;
+    top: 190px;
+    right: 25px;
+}
+
+.btn-save-sc-pi1 {
+    position: absolute;
+    top: 215px;
+    right: 25px;
+}
+
+.btn-save-sc-pi2 {
+    position: absolute;
+    top: 75px;
+    right: 25px;
+}
+
+.btn-save-es-qut
+{
+    position: absolute;
+    top: 240px;
+    right: 25px;
+}
+
+.btn-save-st-mod {
+    position: absolute;
+    top: 105px;
+    right: 25px;
+}
+
+.btn-save-a-pos {
+    position: absolute;
+    top: 250px;
+    right: 25px;
+}
+
+.btn-save-in-trns {
+    position: absolute;
+    top: 190px;
+    right: 25px;
+}
+
+.btn-save-man-assm {
+    position: absolute;
+    top: 105px;
+    right: 25px;
+}
+
+.btn-op-add-st-pos {
+    position: absolute; 
+    top: -55px;
+    bottom: 0;
+    left: 720px; 
+}
+
+.btn-op-add-es-grp {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
+
+.btn-op-update-es-grp {
+    position: absolute;
+    top: 185px;
+    right: 355px;
+}
+
+.btn-op-updatedis-es-grp {
+    position: absolute;
+    top: 60px;
+    right: 525px;
+}
+
+.btn-op-replace-es-grp {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
+
+.btn-op-delete-es-grp {
+    position: absolute;
+    top: 130px;
+    right: 260px;
+}
+
+.cancel-p {
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    left: 780px;   
+}
+
+.multi-dlvry-pos {
+    position: absolute;
+    top: 45px;
+    left: 650px;
+}
+
+/*Images Positions*/
+.img-search { 
+    position: absolute;
+    top: 5px;
+    left: 690px;
+}
+
+.img-clear { 
+    position: absolute;
+    top: 5px;
+    left: 715px;
+}
+
+/* grid title new*/
+.grid-container {
+  margin: 10px auto;
+  padding: 30px;
+  border: 1px solid #e2e4e7;
+  background-color: #f5f7f8;
+  *zoom: 1; 
+}
+
+.grid-container h1, .grid-container h2, .grid-container h3, .grid-container h4, .grid-container h5, .grid-container h6 {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.grid-container.no-bg {
+    padding: 0;
+    border-width: 0;
+    color: inherit;
+    background-color: transparent; 
+  }
+
+/* paragraph title new*/
+.par-container {
+  margin: 10px auto;
+  padding: 30px;
+  border: 1px solid #e2e4e7;
+  background-color: #f5f7f8;
+  *zoom: 1; 
+}
+
+.par-container h1, .par-container h2, .par-container h3, .par-container h4, .par-container h5, .par-container h6 {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.par-container.no-bg {
+    padding: 0;
+    border-width: 0;
+    color: inherit;
+    background-color: transparent; 
+  }
+
+/*Details grid New*/
+.grid-tbl-dtl {
+    background-color: #eee !important;
+    border-color: black !important;
+    border-top-width: 1px !important;
+    border-top-style: solid !important;
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+}
+
+.grid-tbl-dtl caption {
+    background-color: #E6E6FA !important;
+    font-size: 14px;
+    padding: 4px;
+}
+/*toolbar*/
+div.tb-main .rtbUL { 
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+/**/
+
+.tb-main {
+    text-transform: uppercase;
+    /*background-color: #f8f8f8;*/
+    border:0;
+}
+
+.tb-main img {
+    margin-right: 5px; 
+}
+
+/*tolllllll*/
+.panel-heading .pull-left {
+   
+}
+
+/*tiles*/
+.wideContent{
+    width: 290px;
+    height: 130px;
+    font-family: Segoe UI;
+    padding: 10px;
+}
+
+.squareContent{
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+}
+
+.font17{
+    font-size: 17px;
+}
+
+.system-message {
+	margin: 150px auto;
+	width: 60%;
+	text-align: left;
+	padding: 20px;
+	color:black;
+	font-family: Segoe UI;
+	font-weight: 100;
+	font-size: 36px;
+	position: relative;
+}
+
+.system-message .title {
+	display: inline-block;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.system-message hr {
+	width: 100%;
+}
+
+.system-message p {
+	font-size: 20px;
+}
+
+.system-message a {
+	font-size: 18px;
+    font-weight: 400;
+    color: dodgerblue;
+	text-decoration:none;
+}
+
+.system-message:visited {
+	font-size: 18px;
+    font-weight: 400;
+    color: dodgerblue;
+	text-decoration:none;
+}
+
+/*********************************** Notification  not used ***********************************/
+
+.alert-box {
+	color:#555;
+	border-radius:10px;
+	font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+	padding:10px 36px;
+	margin:10px;
+}
+.alert-box span {
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.error {
+	background:#ffecec url('../images/notification/error.png') no-repeat 10px 50%;
+	border:1px solid #f5aca6;
+}
+.success {
+	background:#e9ffd9 url('../images/notification/success.png') no-repeat 10px 50%;
+	border:1px solid #a6ca8a;
+}
+.warning {
+	background:#fff8c4 url('../images/notification/warning.png') no-repeat 10px 50%;
+	border:1px solid #f2c779;
+}
+.notice {
+	background:#e3f7fc url('../images/notification/notice.png') no-repeat 10px 50%;
+	border:1px solid #8ed9f6;
+}
+
+/*********************************** Notification ***********************************/
+
+/****Start section Features *****/
+
+.Features
+{
+	background-color:#fff; 
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+	
+}
+.Features h1
+{
+  	font-weight: bold;
+	margin-bottom: 25px;
+	text-align: left;
+	padding-left: 20px;
+	
+}
+.Features h4{
+	text-align: left;
+}
+
+.Features .fet p
+{
+    line-height: 2em;
+	text-align: left;
+}
+
+.Features .fet span.glyphicon
+{
+    font-size: 36px;
+	padding-bottom:25px;
+	padding-top:25px;
+	color:#0e8ece;
+}
+
+.Features .fet{
+	border: 1px solid #888;
+	padding: 10px;
+	margin-bottom: 25px;
+	
+}
+
+
+/*****end section Features *****/

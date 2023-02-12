@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <modules>
+    <module name="RadEditorStatistics" dockingZone="Bottom"/>
+  </modules>
+  <tools>
+    <tool name="Bold" shortcut="CTRL+B"/>
+    <tool name="Italic" shortcut="CTRL+I"/>
+    <tool name="Underline" shortcut="CTRL+U"/>
+    <tool name="StrikeThrough" />
+    <tool separator="true"/>
+    <tool name="JustifyLeft" />
+    <tool name="JustifyCenter" />
+    <tool name="JustifyRight" />
+    <tool name="JustifyFull" />
+    <tool name="JustifyNone" />
+    <tool separator="true"/>
+    <tool name="Indent" />
+    <tool name="Outdent" />
+    <tool separator="true"/>
+    <tool name="InsertOrderedList" />
+    <tool name="InsertUnorderedList" />
+  </tools>
+  <tools>
+    <tool name="FontName" shortcut="CTRL+SHIFT+F"/>
+    <tool name="FontSize" shortcut="CTRL+SHIFT+P"/>
+    <tool name="RealFontSize" shortcut="CTRL+SHIFT+P"/>
+  </tools>
+  <tools>
+    <tool name="ForeColor"/>
+    <tool name="BackColor"/>
+  </tools>
+</root>

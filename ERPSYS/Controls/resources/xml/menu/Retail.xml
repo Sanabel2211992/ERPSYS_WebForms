@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Group>
+    <Item Text="Products">
+      <Group Flow="Vertical">
+        <Item Text="Price List" Href="~/ERP/item/item-price-list.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Inventory">
+      <Group>
+        <Item Text="Current Stock" Href="~/ERP/inventory/inv-item-list.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Customers">
+      <Group Flow="Vertical">
+        <Item Text="New Customer" Href="~/ERP/customer/customer-details.aspx" />
+        <Item Text="Customers List" Href="~/ERP/customer/customer-list.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Quotation">
+      <Group Flow="Vertical">
+        <Item Text="New Sales Quotation" Href="~/ERP/est/quote-create.aspx" />
+        <Item Text="Quotations List" Href="~/ERP/est/quote-list.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Sales Invoices" width="125px">
+      <Group Flow="Vertical">
+        <Item Text="New Sales Invoice" Href="~/ERP/sm/sales-invoice-create.aspx" />
+        <Item Text="Sales Invoices List" Href="~/ERP/sm/sales-invoice-list.aspx" />
+      </Group>
+    </Item>
+  </Group>
+</Menu>
+
+

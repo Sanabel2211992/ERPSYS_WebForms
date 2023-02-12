@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Group>
+    <Item Text="Administration">
+      <Group>
+        <Item Text="Users Management">
+          <Group Flow="Vertical">
+            <Item Text="Departments" Href="~/ERP/settings/department-list.aspx" />
+            <Item Text="Roles" Href="~/ERP/settings/role-list.aspx" />
+            <Item IsSeparator="True" />
+            <Item Text="Users List" Href="~/ERP/user/user-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Global Settings">
+          <Group Flow="Vertical">
+            <Item Text="Default Company Profile" Href="~/ERP/settings/profile.aspx" />
+            <Item Text="Company List" Href="~/ERP/settings/company-list.aspx" />
+            <Item Text="System Settings" Href="~/ERP/settings/company-settings.aspx" />
+            <Item Text="System Settings (New)" Href="~/ERP/settings/system-settings.aspx" />
+            <Item Text="Locations" Href="~/ERP/settings/location-list.aspx" />
+            <Item Text="Locations Assignment" Href="~/ERP/settings/location-assign.aspx" />
+            <Item Text="Currency Management" Href="~/ERP/settings/currency-list.aspx" />
+            <Item Text="Currency Exchange Rates" Href="~/ERP/settings/pricing.aspx" />
+            <Item Text="Payment Terms" Href="~/ERP/settings/payment-terms-list.aspx" />
+            <Item Text="Payment Methods" Href="~/ERP/settings/payment-method-list.aspx" />
+            <Item Text="Pages Management" Href="~/ERP/settings/page-list.aspx" />
+            <Item Text="Group Permission" Href="~/ERP/settings/user-permission-group.aspx" />
+            <Item Text="Documents Management" Href="~/ERP/settings/document-num.aspx" />
+            <Item Text="Documents Templates" Href="~/ERP/settings/document-template.aspx" />
+            <Item Text="Print Templates" Href="~/ERP/settings/report-template.aspx" />
+            <Item Text="Units of Measure">
+              <Group Flow="Vertical">
+                <Item Text="UOM List" Href="~/ERP/settings/uom-list.aspx" />
+                <Item Text="UOM Conversions" Href="~/ERP/settings/uom-conversion-list.aspx" />
+              </Group>
+            </Item>
+            <Item Text="Raw Materials Category" Href="~/ERP/settings/item-rm-bom-category.aspx" />
+            <Item Text="Products Bulk Settings" Href="~/ERP/item/item-setting.aspx" />
+          </Group>
+        </Item>
+      </Group>
+      <Item Text="General Operations" Href="~/ERP/settings/general-operations.aspx" />
+      <Item Text="Mail">
+        <Group Flow="Vertical">
+          <Item Text="Mail Settings" Href="~/ERP/settings/mail-settings-list.aspx" />
+          <Item IsSeparator="True" />
+          <Item Text="Email Templates" Href="~/ERP/settings/email-template-type-list.aspx" />
+        </Group>
+      </Item>
+      <Item Text="Import">
+        <Group Flow="Vertical">
+          <Item Text="Import File" Href="~/ERP/import/imp-excel.aspx" />
+        </Group>
+      </Item>
+      <Item Text="Support Center">
+        <Group Flow="Vertical">
+          <Item Text="Ticket Settings" Href="~/ERP/settings/ticket-settings-form.aspx" />
+          <Item Text="Ticket Category" Href="~/ERP/settings/ticket-category-list.aspx" />
+          <Item Text="Ticket Issue" Href="~/ERP/settings/ticket-issue-list.aspx" />
+          <Item Text="Ticket Staff" Href="~/ERP/settings/ticket-staff-list.aspx" />
+          <Item Text="Ticket Team" Href="~/ERP/settings/ticket-team-list.aspx" />
+          <Item Text="Ticket Departments" Href="~/ERP/settings/ticket-department-list.aspx" />
+        </Group>
+      </Item>
+    </Item>
+    <Item Text="Monitor">
+      <Group Flow="Vertical">
+        <Item Text="Log">
+          <Group Flow="Vertical">
+            <Item Text="Current Session" Href="~/ERP/session/session-info.aspx" />
+            <Item Text="Events Log" Href="~/ERP/monitor/event-log.aspx" />
+          </Group>
+        </Item>
+        <!--<Item Text="Audit">
+          <Group Flow="Vertical">
+            <Item Text="Audit List" Href="~/ERP/monitor/audit-list.aspx" />
+          </Group>
+        </Item>-->
+        <Item Text="Latest Items List" Href="~/ERP/item/latest-item.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Products">
+      <Group Flow="Vertical">
+        <Item Text="Price List" Href="~/ERP/item/item-price-list.aspx" />
+        <Item  IsSeparator="True" />
+        <Item Text="Products">
+          <Group Flow="Vertical">
+            <Item Text="Add Product" Href="~/ERP/item/item-simp-form.aspx" />
+            <Item Text="Add Product (Advanced)" Href="~/ERP/item/item-form.aspx" />
+            <Item Text="Add Product (Non Standard)" Href="~/ERP/item/item-ns-form.aspx" />
+            <Item IsSeparator="True" />
+            <Item Text="Products List" Href="~/ERP/item/item-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+      <Item Text="Bill Of Material">
+        <Group Flow="Vertical">
+          <Item Text="(BOM) Products List" Href="~/ERP/item/item-bom-list.aspx" />
+        </Group>
+      </Item>
+      <Item Text="Tools">
+        <Group Flow="Vertical">
+          <Item Text="Import Products" Href="~/ERP/item/item-import.aspx" />
+          <Item Text="Replace Product" Href="~/ERP/item/item-replace.aspx" />
+        </Group>
+      </Item>
+      <Item Text="Settings">
+        <Group Flow="Vertical">
+          <Item Text="Types" Href="~/ERP/item/item-type.aspx" />
+          <Item Text="Categories" Href="~/ERP/item/item-cat-list.aspx" />
+          <Item Text="Brands" Href="~/ERP/item/brand-list.aspx" />
+        </Group>
+      </Item>
+    </Item>
+    <Item Text="Purchasing">
+      <Group Flow="Vertical">
+        <Item Text="Suppliers">
+          <Group Flow="Vertical">
+            <Item Text="New Supplier" Href="~/ERP/scm/supplier-details.aspx" />
+            <Item Text="Suppliers List" Href="~/ERP/scm/supplier-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Purchase Order">
+          <Group Flow="Vertical">
+            <Item Text="New Purchase Order" Href="~/ERP/scm/purchase-order-create.aspx" />
+            <Item Text="Purchase Orders List" Href="~/ERP/scm/purchase-order-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Material Receipt">
+          <Group Flow="Vertical">
+            <Item Text="Material Receipt /P.O" Href="~/ERP/scm/goods-receipt-po.aspx" />
+            <Item Text="New Material Receipt" Href="~/ERP/scm/goods-receipt-create.aspx" />
+            <Item Text="Material Receipt List" Href="~/ERP/scm/goods-receipt-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Purchase Invoice">
+          <Group Flow="Vertical">
+            <Item Text="Purchase Invoice /M.R" Href="~/ERP/scm/purchase-invoice-grn.aspx" />
+            <Item Text="New Purchase Invoice" Href="~/ERP/scm/purchase-invoice-create.aspx" />
+            <Item Text="Purchase Invoice List" Href="~/ERP/scm/purchase-invoice-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+    </Item>
+    <Item Text="Inventory">
+      <Group>
+        <Item Text="Current Stock" Href="~/ERP/inventory/inv-item-list.aspx" />
+        <Item IsSeparator="True" />
+        <Item Text="Goods Received Store" Href="~/ERP/inventory/goods-received-store.aspx" />
+        <Item Text="Consigned Goods Store" Href="~/ERP/inventory/goods-consigned-store.aspx" />
+        <Item IsSeparator="True" />
+        <Item Text="Stock Transfer">
+          <Group Flow="Vertical">
+            <Item Text="New Stock Transfer" Href="~/ERP/inventory/transfer-create.aspx" />
+            <Item Text="Stock Transfers History" Href="~/ERP/inventory/transfer-list.aspx" />
+          </Group>
+        </Item>
+        <Item IsSeparator="True" />
+        <Item Text="Management Reports">
+          <Group Flow="Vertical">
+            <Item Text="Stock History" Href="~/ERP/inventory/inv-item-history-list.aspx" />
+            <Item Text="Products Transaction" Href="~/ERP/inventory/inv-item-trans-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+    </Item>
+    <Item Text="Estimation">
+      <Group Flow="Vertical">
+        <Item Text="New Sales Quote" Href="~/ERP/est/quote-create.aspx" />
+        <Item Text="Sales Quote List" Href="~/ERP/est/quote-list.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Job Order">
+      <Group>
+        <Item Text="New Job Order" Href="~/ERP/sm/job-order-create.aspx" />
+        <Item Text="Job Order List" Href="~/ERP/sm/job-order-list.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Manufacturing">
+      <Group>
+        <Item Text="Products (BOM) List" Href="~/ERP/item/item-bom-list.aspx" />
+        <Item IsSeparator="True" />
+        <Item Text="Job Order List" Href="~/ERP/sm/job-order-list.aspx" />
+        <Item Text="Production Order List" Href="~/ERP/man/prod-order-list.aspx" />
+        <Item Text="Modification Order List" Href="~/ERP/man/modif-order-list.aspx" />
+        <Item Text="Assembly Order List" Href="~/ERP/man/assembly-order-list.aspx" />
+        <Item IsSeparator="True" />
+        <Item Text="Production Materials Store" Href="~/ERP/inventory/goods-production-store.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Projects">
+      <Group>
+        <Item Text="Add New Project" Href="~/ERP/proj/proj-create.aspx" />
+        <Item Text="Project List" Href="~/ERP/proj/proj-list.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Sales Management" width="125px">
+      <Group Flow="Vertical">
+        <Item Text="Customers">
+          <Group Flow="Vertical">
+            <Item Text="New Customer" Href="~/ERP/customer/customer-details.aspx" />
+            <Item Text="Customers List" Href="~/ERP/customer/customer-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Sales Orders">
+          <Group Flow="Vertical">
+            <Item Text="New Sales Order" Href="~/ERP/sm/sales-order-create.aspx" />
+            <Item Text="Sales Orders List" Href="~/ERP/sm/sales-order-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Delivery Receipts">
+          <Group Flow="Vertical">
+            <Item Text="Delivery Receipts /S.O" Href="~/ERP/sm/delivery-receipt-so.aspx" />
+            <Item Text="Delivery Receipts List" Href="~/ERP/sm/delivery-receipt-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Sales Invoices">
+          <Group Flow="Vertical">
+            <Item Text="Sales Invoice /D.R" Href="~/ERP/sm/sales-invoice-dr.aspx" />
+            <Item Text="Sales Invoice /Mutli D.R" Href="~/ERP/sm/sales-invoice-mdr.aspx" />
+            <Item Text="New Sales Invoice" Href="~/ERP/sm/sales-invoice-create.aspx" />
+            <Item Text="Sales Invoices List" Href="~/ERP/sm/sales-invoice-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Proforma Invoices">
+          <Group Flow="Vertical">
+            <Item Text="New Proforma Invoice" Href="~/ERP/sm/pro-invoice-create.aspx" />
+            <Item Text="Proform Invoices List" Href="~/ERP/sm/pro-invoice-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Packing List">
+          <Group Flow="Vertical">
+            <Item Text="New Packing List" Href="~/ERP/sm/packing-create.aspx" />
+            <Item Text="Packing List" Href="~/ERP/sm/packing-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+    </Item>
+    <!--<Item Text="Email">
+      <Group Flow="Vertical">
+        <Item Text="Send Email" Href="~/ERP/mail/mail-send.aspx" />
+      </Group>
+    </Item>-->
+    <!--<Item Text="File Management" width="120px">
+      <Group>
+        <Item Text="Files List" Href="~/ERP/files/file-list.aspx" />
+      </Group>
+    </Item>-->
+    <!--<Item Text="Support Center" width="110px">
+      <Group>
+        <Item Text="Create Ticket" Href="~/ERP/sc/ticket-open.aspx" />
+        <Item Text="Ticket List" Href="~/ERP/sc/ticket-list.aspx" />
+      </Group>
+    </Item>-->
+    <Item Text="Reports">
+      <Group Flow="Vertical">
+        <Item Text="Inventory Reports">
+          <Group Flow="Vertical">
+            <Item Text="Goods Cost Report" Href="~/ERP/inventory/goods-cost.aspx" />
+            <Item Text="Goods History Report" Href="~/ERP/inventory/goods-history.aspx" />
+            <Item Text="Item Card Report" Href="~/ERP/inventory/goods-trans-search.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Purchasing Reports">
+          <Group Flow="Vertical">
+            <Item Text="Purchase Auditing Reports" Href="~/ERP/scm/rpt-scm-audit.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Sales Reports">
+          <Group Flow="Vertical">
+            <Item Text="Sales Invoices Report" Href="~/ERP/sm/sales-invoice-report-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+    </Item>
+    <!--<Item Text="CRM">
+      <Group>
+        <Item Text="Clients List" Href="~/ERP/crm/client-list.aspx" />
+      </Group>
+    </Item>-->
+    <!--<Item Text="Testing" width="120px">
+      <Group>
+        <Item Text="Test 1" Href="~/Test/smt/sales-invoice-list-test.aspx" />
+        <Item Text="New" Href="~/Test/smt/newpage.aspx" />
+      </Group>
+    </Item>-->
+    <!--<Item Text="Tickets">
+      <Group>
+        <Item Text="New Ticket" Href="~/ERP/scx/ticket-open.aspx" />
+        <Item Text="Ticket List " Href="~/ERP/scx/ticket-list.aspx" />
+      </Group>
+    </Item>-->
+    <!--<Item Text="Help Desk">
+      <Group>
+        <Item Text="New Ticket" Href="~/ERP/hd/ticket-create.aspx" />
+        <Item Text="Ticket List " Href="~/ERP/hd/ticket-list.aspx" />
+      </Group>
+    </Item>-->
+    <!--<Item Text="Dashboard">
+      <Group Flow="Vertical">
+        <Item Text="Dashboard Test" Href="~/ERP/dashboard/dashboard-test.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Test Lab">
+      <Group Flow="Vertical">
+        <Item Text="Performance Test" Href="~/ERP/lab/performance-test.aspx" />
+        <Item Text="User Permission" Href="~/ERP/lab/user-permission.aspx?id=1" />
+      </Group>
+    </Item>-->
+  </Group>
+</Menu>

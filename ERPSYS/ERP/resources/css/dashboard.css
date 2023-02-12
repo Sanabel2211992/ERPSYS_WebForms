@@ -1,0 +1,45 @@
+﻿/****Start section Features *****/
+
+.Features
+{
+	background-color:#eee; 
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+	
+}
+.Features h1
+{
+  	font-weight: bold;
+	margin-bottom: 25px;
+	text-align: left;
+	padding-left: 20px;
+	
+}
+.Features h4{
+	text-align: left;
+}
+
+.Features .fet p
+{
+    line-height: 2em;
+	text-align: left;
+}
+
+.Features .fet span.glyphicon
+{
+    font-size: 36px;
+	padding-bottom:25px;
+	padding-top:25px;
+	color:#0e8ece;
+}
+
+.Features .fet{
+	border: 1px solid #888;
+	padding: 10px;
+	margin-bottom: 25px;
+	
+}
+
+
+/*****end section Features *****/

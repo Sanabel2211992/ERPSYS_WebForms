@@ -1,0 +1,202 @@
+﻿/**/
+.val-error {
+    color: red;
+}
+/**/
+.gvDefault {
+    width: 100%;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+.gvDefaultHeader
+{
+     height: 21px;
+}
+.gvDefaultFooter
+{
+	height: 21px;
+}
+.gvDefaultdRow
+{
+	/*font-size: 8.5pt;*/
+}
+.gvDefaultEditRow 
+{
+    /*font-size: 8.5pt;*/
+}
+.gvDefaultEditRow input
+{
+	width: 50px;
+    /*font-size: 8.5pt;*/
+	text-align: center;
+}
+.gvDefaultdAlternatingRow
+{
+    
+}
+.gvDefaultdAlternatingRow input
+{
+	width: 40px;
+	text-align: center;
+}
+
+tr.gvDefaultHeader th
+{
+
+}
+.gvDefault td
+{
+
+}
+.gvDefaultEmptyData
+{
+
+}
+.gvDefaultEmptyData td
+{
+
+}
+.gvDefault A:link,
+.gvDefault A:visited
+{	
+
+}
+.gvDefault A:hover
+{
+}
+
+/**/
+.gvView
+{
+	width: 100%;
+}
+.gvViewHeader
+{
+    height: 21px;
+    background-color:#eee;
+    font-weight:300;
+}
+.gvViewFooter
+{
+	height: 21px;
+    background-color:#eee;
+}
+.gvViewRow
+{
+	background-color:#fff;
+    font-size:13px;
+}
+.gvViewEditRow 
+{
+    /*font-size: 8.5pt;*/
+}
+.gvViewEditRow input
+{
+	width: 50px;
+    /*font-size: 8.5pt;*/
+	text-align: center;
+}
+.gvViewdAlternatingRow {
+}
+
+.gvViewdAlternatingRow input {
+	width: 40px;
+	text-align: center;
+}
+
+tr.gvViewHeader th
+{
+
+}
+.gvView td{
+}
+
+.gvViewEmptyData  {  
+}
+
+.gvViewEmptyData td
+{
+
+}
+.gvView A:link,
+.gvView A:visited
+{	
+
+}
+.gvView A:hover
+{
+}
+
+.gvbz {
+   
+}
+
+.gvbz tr th {
+    padding:5px 5px 5px 5px;
+    border:0;
+    font-weight:400;
+    }
+
+.gvbz tr td {
+    padding:5px 5px 5px 5px;
+    border:0;
+    font-size:12px;
+    }
+
+.gvbzHeader{  
+      /*background Gridint*/
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 48%, rgba(229,229,229,1) 100%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(48%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 48%,rgba(229,229,229,1) 100%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 48%,rgba(229,229,229,1) 100%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 48%,rgba(229,229,229,1) 100%,rgba(229,229,229,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 48%,rgba(229,229,229,1) 100%,rgba(229,229,229,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+    /*end Gradint*/
+    color:rgb(42, 42, 42);
+    font-size:13px;   
+    border:1px solid #808080;   
+}
+
+.gvbzHeader th {
+    text-align:left;
+
+}
+
+.gvbzFooter {
+}
+
+tr.gvbzFooter {
+    border-top: 1px solid #000;
+    background-color:#eee;
+}
+
+.PagerFooter {    
+}
+
+.gvbzRow {
+    background-color:#fff;border:0;
+}
+
+.gvbzdAlternatingRow {
+    background-color:#f2f2f2;border:0;
+}
+
+.gvbzSelectedRow {
+}
+
+.gvbzEditRow {
+}
+
+.gvbzEmptyData{
+    text-align:center;
+    height: 75px;    
+}
+tr.gvbzEmptyData{
+}
+
+.gvbzEmptyData td{
+    align-content:center;
+}

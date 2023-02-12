@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <modules>
+    <module name="RadEditorStatistics" dockingZone="Bottom"/>
+    <module name="RadEditorDomInspector" />
+    <module name="RadEditorNodeInspector" />
+    <module name="RadEditorHtmlInspector"  visible="false" />
+  </modules>
+  <tools name="MainToolbar">
+    <tool name="Print" shortcut="CTRL+P"/>
+    <tool name="AjaxSpellCheck"/>
+    <tool name="FindAndReplace" shortcut="CTRL+F"/>
+    <tool name="Cut" />
+    <tool name="Copy" shortcut="CTRL+C"/>
+    <tool name="Paste" shortcut="CTRL+V"/>
+    <tool name="PasteStrip"/>
+    <tool separator="true"/>
+    <tool name="Undo" shortcut="CTRL+Z"/>
+    <tool name="Redo" shortcut="CTRL+Y"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="ImageManager" shortcut="CTRL+G"/>
+    <tool name="AbsolutePosition" />
+    <tool separator="true"/>
+    <tool name="FlashManager" />
+    <tool name="MediaManager" />
+    <tool name="DocumentManager" />
+    <tool name="TemplateManager" />
+    <tool separator="true"/>
+    <tool name="LinkManager" shortcut="CTRL+K"/>
+    <tool name="Unlink" shortcut="CTRL+SHIFT+K"/>
+  </tools>
+
+  <tools>
+    <tool name="Superscript" />
+    <tool name="Subscript" />
+    <tool name="InsertParagraph" />
+    <tool name="InsertGroupbox" />
+    <tool name="InsertHorizontalRule" />
+    <tool name="InsertDate" />
+    <tool name="InsertTime" />
+  </tools>
+
+  <tools>
+    <tool name="FormatBlock"/>
+    <tool name="FontName" shortcut="CTRL+SHIFT+F"/>
+    <!--tool name="FontSize" shortcut="CTRL+SHIFT+P"/-->
+    <tool name="RealFontSize" shortcut="CTRL+SHIFT+P"/>
+  </tools>
+
+  <tools>
+    <tool name="SelectAll" shortcut="CTRL+A"/>
+    <tool separator="true"/>
+    <tool name="Bold" shortcut="CTRL+B"/>
+    <tool name="Italic" shortcut="CTRL+I"/>
+    <tool name="Underline" shortcut="CTRL+U"/>
+    <tool name="StrikeThrough" />
+    <tool separator="true"/>
+    <tool name="JustifyLeft" />
+    <tool name="JustifyCenter" />
+    <tool name="JustifyRight" />
+    <tool name="JustifyFull" />
+    <tool name="JustifyNone" />
+    <tool separator="true"/>
+    <tool name="Indent" />
+    <tool name="Outdent" />
+    <tool separator="true"/>
+    <tool name="InsertOrderedList" />
+    <tool name="InsertUnorderedList" />
+    <tool name="ToggleTableBorder" />
+  </tools>
+
+  <tools>
+    <tool name="ForeColor"/>
+    <tool name="BackColor"/>
+    <tool name="ApplyClass"/>
+    <tool name="FormatStripper"/>
+  </tools>
+
+  <tools name="DropdownToolbar" >
+    <tool name="InsertSymbol"/>
+    <tool name="InsertTable"/>
+    <tool name="InsertFormElement" />
+    <tool name="InsertSnippet"/>
+    <tool name="ImageMapDialog"/>
+    <tool name="InsertCustomLink" shortcut="CTRL+ALT+K"/>
+    <tool separator="true"/>
+    <tool name="ConvertToLower" />
+    <tool name="ConvertToUpper" />
+    <tool separator="true"/>
+    <tool name="AboutDialog" />
+    <!--<tool name="Help" shortcut="F1"/>-->
+    <tool name="Zoom"/>
+    <tool name="ModuleManager" />
+    <tool name="ToggleScreenMode" shortcut="F11"/>
+  </tools>
+
+  <links>
+    <link name="telerik" href="http://www.telerik.com">
+      <link name="Products" href="http://www.telerik.com/products">
+        <link name="RadEditor" href="http://www.telerik.com/radeditor" />
+      </link>
+      <link name="Purchase" href="http://www.telerik.com/purchase" />
+      <link name="Support" href="http://www.telerik.com/support" />
+      <link name="Client.Net" href="http://www.telerik.com/clientnet" />
+    </link>
+    <link name="Microsoft">
+      <link name="Main Site" href="http://www.microsoft.com" />
+      <link name="MSDN Online" href="http://msdn.microsoft.com" />
+      <link name="Windows Update" href="http://windowsupdate.microsoft.com" />
+    </link>
+    <link name="Search Engines">
+      <link name="Google" href="http://www.google.com" />
+      <link name="Yahoo" href="http://www.yahoo.com" />
+      <link name="AltaVista" href="http://www.altavista.com" />
+    </link>
+  </links>
+  <snippets>
+    <snippet name="Order Confirmation">
+      <![CDATA[
+					<div style="width:300px;border:2px outset #D8D2BD;padding:34px;font-family:Arial, Verdana; font-size:11px;background-color:#F1EFE6;">
+					Dear ____________________,<br />
+					Thank you for inquiring about ____________. Your request will be processed in 48 hours and shipped at the address you have provided. 
+					<br /><br />
+						<b>Please, contact us if you have any problems.</b>
+					</div>
+				]]>
+    </snippet>
+    <snippet name="Email Signature">
+      <![CDATA[
+					<div style="margin-top:30px;width:80%;border-top:1px dotted gray;padding-top:4px;font-family:Arial, Verdana; font-size:11px;">
+					<b>John Wigham</b><br />
+					Senior Web Developer<br />
+						<a href=<color value="#">john@mysite.com</a>
+						<br />
+							<br />
+								<i>Disclaimer: The contents of this e-mail are privileged and confidential and intended for the addressees at the specified e-mail addresses only.</i>
+					</div>
+				]]>
+    </snippet>
+    <snippet name="Problem Report Feedback">
+      <![CDATA[
+					<div style="width:300px;border:2px outset #D8D2BD;padding:34px;font-family:Arial, Verdana; font-size:11px;background-color:#F1EFE6;">
+					Hi ____________________,<br />
+					Thank you for reporting this issue. We have verified the problem and it is logged in our system. We will notify you once we have a solution. 
+					<br /><br />
+						<b>Please, contact us if you have any problems.</b>
+					</div>
+				]]>
+    </snippet>
+  </snippets>
+  <contextMenus>
+    <contextMenu forElement="IMG">
+      <tool Name="SetImageProperties" />
+      <tool Name="ImageMapDialog" />
+    </contextMenu>
+    <contextMenu forElement="TABLE">
+      <tool Name="ToggleTableBorder" />
+      <tool Name="SetTableProperties" />
+      <tool Name="DeleteTable" />
+    </contextMenu>
+    <contextMenu forElement="TD">
+      <tool Name="InsertRowAbove" />
+      <tool Name="InsertRowBelow" />
+      <tool Name="DeleteRow" />
+      <tool Name="InsertColumnLeft" />
+      <tool Name="InsertColumnRight" />
+      <tool Name="MergeColumns" />
+      <tool Name="MergeRows" />
+      <tool Name="SplitCell" />
+      <tool Name="DeleteCell" />
+      <tool Name="SetCellProperties" />
+    </contextMenu>
+    <contextMenu forElement="A">
+      <tool Name="SetLinkProperties" />
+      <tool Name="Unlink" />
+    </contextMenu>
+    <contextMenu forElement="BODY">
+      <tool Name="Cut" />
+      <tool Name="Copy" />
+      <tool Name="Paste" />
+      <tool Name="PasteFromWord" />
+      <tool Name="PastePlainText" />
+      <tool Name="PasteAsHtml" />
+    </contextMenu>
+  </contextMenus>
+
+  <symbols>
+    <symbol value="&#8364;" />
+    <symbol value="&#162;" />
+    <symbol value="&#163;" />
+    <symbol value="&#165;" />
+    <symbol value="&#164;" />
+    <symbol value="&#169;" />
+    <symbol value="&#174;" />
+    <symbol value="&#8482;" />
+    <symbol value="&#177;" />
+    <symbol value="&#8800;" />
+    <symbol value="&#8776;" />
+    <symbol value="&#8804;" />
+    <symbol value="&#8805;" />
+    <symbol value="&#247;" />
+    <symbol value="&#215;" />
+    <symbol value="&#8734;" />
+    <symbol value="&#189;" />
+    <symbol value="&#188;" />
+    <symbol value="&#190;" />
+    <symbol value="&#178;" />
+    <symbol value="&#179;" />
+    <symbol value="&#8240;" />
+    <symbol value="&#182;" />
+    <symbol value="&#167;" />
+    <symbol value="&#945;" />
+    <symbol value="&#946;" />
+    <symbol value="&#916;" />
+    <symbol value="&#181;" />
+    <symbol value="&#937;" />
+    <symbol value="&#8721;" />
+    <symbol value="&#216;" />
+    <symbol value="&#8736;" />
+    <symbol value="&#186;" />
+    <symbol value="&#171;" />
+    <symbol value="&#187;" />
+    <symbol value="&#183;" />
+    <symbol value="&#8226;" />
+    <symbol value="&#8224;" />
+    <symbol value="&#8225;" />
+    <symbol value="&#402;" />
+  </symbols>
+
+  <colors>
+    <color value="" />
+    <color value="#ffffff" />
+    <color value="#ffcc99" />
+    <color value="#ffff99" />
+    <color value="#ffffcc" />
+    <color value="#99ff99" />
+    <color value="#99ffff" />
+    <color value="#ccffff" />
+    <color value="#ccccff" />
+    <color value="#ffccff" />
+    <color value="#cccccc" />
+    <color value="#ff6666" />
+    <color value="#ff9966" />
+    <color value="#ffff66" />
+    <color value="#ffff33" />
+    <color value="#66ff99" />
+    <color value="#33ffff" />
+    <color value="#66ffff" />
+    <color value="#9999ff" />
+    <color value="#ff99ff" />
+    <color value="#c0c0c0" />
+    <color value="#ff0000" />
+    <color value="#ff9900" />
+    <color value="#ffcc66" />
+    <color value="#ffff00" />
+    <color value="#33ff33" />
+    <color value="#66cccc" />
+    <color value="#33ccff" />
+    <color value="#6666cc" />
+    <color value="#cc66cc" />
+    <color value="#999999" />
+    <color value="#cc0000" />
+    <color value="#FF6600" />
+    <color value="#FFCC33" />
+    <color value="#FFCC00" />
+    <color value="#33CC00" />
+    <color value="#00CCCC" />
+    <color value="#3366FF" />
+    <color value="#6633FF" />
+    <color value="#CC33CC" />
+    <color value="#666666" />
+    <color value="#990000" />
+    <color value="#cc6600" />
+    <color value="#cc9933" />
+    <color value="#999900" />
+    <color value="#009900" />
+    <color value="#339999" />
+    <color value="#3333ff" />
+    <color value="#6600cc" />
+    <color value="#993399" />
+    <color value="#333333" />
+    <color value="#660000" />
+    <color value="#993300" />
+    <color value="#996633" />
+    <color value="#666600" />
+    <color value="#006600" />
+    <color value="#336666" />
+    <color value="#000099" />
+    <color value="#333399" />
+    <color value="#663366" />
+    <color value="#000000" />
+    <color value="#330000" />
+    <color value="#663300" />
+    <color value="#663333" />
+    <color value="#333300" />
+    <color value="#003300" />
+    <color value="#003333" />
+    <color value="#000066" />
+    <color value="#330099" />
+    <color value="#330033" />
+  </colors>
+</root>

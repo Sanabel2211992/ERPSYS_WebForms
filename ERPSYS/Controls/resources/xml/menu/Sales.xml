@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Group>
+    <Item Text="Products">
+      <Group Flow="Vertical">
+        <Item Text="Price List" Href="~/ERP/item/item-price-list.aspx" />
+        <Item  IsSeparator="True" />
+        <Item Text="Products">
+          <Group Flow="Vertical">
+            <Item Text="Add Product" Href="~/ERP/item/item-simp-form.aspx" />
+            <Item Text="Add Product (Advanced)" Href="~/ERP/item/item-form.aspx" />
+            <Item Text="Add Product (Non Standard)" Href="~/ERP/item/item-ns-form.aspx" />
+            <Item IsSeparator="True" />
+            <Item Text="Products List" Href="~/ERP/item/item-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+      <Item Text="Bill Of Material">
+        <Group Flow="Vertical">
+          <Item Text="(BOM) Products List" Href="~/ERP/item/item-bom-list.aspx" />
+        </Group>
+      </Item>
+    </Item>
+    <Item Text="Inventory">
+      <Group>
+        <Item Text="Current Stock" Href="~/ERP/inventory/inv-item-list.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Estimation">
+      <Group>
+        <Item Text="Sales Quotations">
+          <Group Flow="Vertical">
+            <Item Text="New Quotation" Href="~/ERP/est/quote-create.aspx" />
+            <Item Text="Quotation List" Href="~/ERP/est/quote-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+    </Item>
+    <Item Text="Job Order">
+      <Group>
+        <Item Text="New Job Order" Href="~/ERP/sm/job-order-create.aspx" />
+        <Item Text="Job Order List" Href="~/ERP/sm/job-order-list.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Manufacturing">
+      <Group>
+        <Item Text="Products (BOM) List" Href="~/ERP/item/item-bom-list.aspx" />
+        <Item IsSeparator="True" />
+        <Item Text="Job Order List" Href="~/ERP/sm/job-order-list.aspx" />
+        <Item Text="Production Order List" Href="~/ERP/man/prod-order-list.aspx" />
+        <Item Text="Modification Order List" Href="~/ERP/man/mod-order-list.aspx" />
+        <Item Text="Assembly Order List" Href="~/ERP/man/assembly-order-list.aspx" />
+        <Item IsSeparator="True" />
+        <Item Text="Production Materials Store" Href="~/ERP/inventory/goods-production-store.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Sales Management" width="125px">
+      <Group Flow="Vertical">
+        <Item Text="Customers">
+          <Group Flow="Vertical">
+            <Item Text="New Customer" Href="~/ERP/customer/customer-details.aspx" />
+            <Item Text="Customers List" Href="~/ERP/customer/customer-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Sales Orders">
+          <Group Flow="Vertical">
+            <Item Text="New Sales Order" Href="~/ERP/sm/sales-order-create.aspx" />
+            <Item Text="Sales Orders List" Href="~/ERP/sm/sales-order-list.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Delivery Receipts">
+          <Group Flow="Vertical">
+            <Item Text="Delivery Receipts /S.O" Href="~/ERP/sm/delivery-receipt-so.aspx" />
+            <Item Text="Delivery Receipts List" Href="~/ERP/sm/delivery-receipt-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+    </Item>
+    <Item Text="Email">
+      <Group Flow="Vertical">
+        <Item Text="Send Email" Href="~/ERP/mail/mail-send.aspx" />
+      </Group>
+    </Item>
+    <Item Text="File Management" width="120px">
+      <Group>
+        <Item Text="Files List" Href="~/ERP/files/file-list.aspx" />
+      </Group>
+    </Item>
+  </Group>
+</Menu>
+
+

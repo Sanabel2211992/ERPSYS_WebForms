@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Dialog.master.cs" Inherits="ERPSYS.Controls.SearchBoxDialog.Dialog" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="../../ui/resources/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="../../ui/resources/js/jquery-ui-1.8.24.min.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="dcpHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+            </telerik:RadScriptManager>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="dcphMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

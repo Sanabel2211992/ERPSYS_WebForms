@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Group>
+    <Item Text="Products">
+      <Group Flow="Vertical">
+        <Item Text="Price List" Href="~/ERP/item/item-price-list.aspx" />
+        <Item  IsSeparator="True" />
+        <Item Text="Products">
+          <Group Flow="Vertical">
+            <Item Text="Add Product" Href="~/ERP/item/item-simp-form.aspx" />
+            <Item Text="Add Product (Advanced)" Href="~/ERP/item/item-form.aspx" />
+            <Item Text="Add Product (Non Standard)" Href="~/ERP/item/item-ns-form.aspx" />
+            <Item IsSeparator="True" />
+            <Item Text="Products List" Href="~/ERP/item/item-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+    </Item>
+    <Item Text="Purchasing">
+      <Group Flow="Vertical">
+        <Item Text="Material Receipt">
+          <Group Flow="Vertical">
+            <Item Text="Material Receipt /P.O" Href="~/ERP/scm/goods-receipt-po.aspx" />
+            <Item Text="New Material Receipt" Href="~/ERP/scm/goods-receipt-create.aspx" />
+            <Item Text="Material Receipt List" Href="~/ERP/scm/goods-receipt-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+    </Item>
+    <Item Text="Inventory">
+      <Group>
+        <Item Text="Current Stock" Href="~/ERP/inventory/inv-item-list.aspx" />
+        <Item IsSeparator="True" />
+        <Item Text="Goods Received Store" Href="~/ERP/inventory/goods-received-store.aspx" />
+        <Item Text="Consigned Goods Store" Href="~/ERP/inventory/goods-consigned-store.aspx" />
+      </Group>
+    </Item>
+  </Group>
+</Menu>
+
+

@@ -1,0 +1,131 @@
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\bin\ERPSYS.dll.config
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\bin\ERPSYS.dll
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\bin\ERPSYS.pdb
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\bin\Newtonsoft.Json.dll
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\bin\Newtonsoft.Json.xml
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Est.QuoteDetails.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Est.QuoteSummary.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.GoodsCost.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.GoodsReceiptDetailsRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.GoodsReceiptRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.LocationTransfer.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ItemBOM.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ItemRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Man.IssueMaterials.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Man.MaterialTransferRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Man.ModificationOrderRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Man.RowMaterialRequestRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Man.ProductionOrderRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Production.AssemblyOrder.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ProductionKitDetailsRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ProductionKitRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Proj.ProjDetailsRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.Proj.ProjSummaryRpt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SCM.GoodsReceipt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SCM.PurchaseInvoice.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SCM.PurchaseOrder.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SM.DeliveryReceipt.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SM.DeliveryReceiptGroup.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SM.JobOrderCopmact.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SM.JobOrderGroup.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SM.ProInvoice.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SM.SalesInvoice.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SM.SalesOrder.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SM.StockReceiptCompact.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Reports.SM.StockReceiptGroup.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Resources.GeneralResources.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.Resources.Notifications.resources
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.csproj.GenerateResource.Cache
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.dll.licenses
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.dll
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.pdb
+C:\Users\Issa\Documents\Visual Studio 2013\Projects\ERPSYS\ERPSYS\obj\Debug\ERPSYS.csprojResolveAssemblyReference.cache
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.csproj.AssemblyReference.cache
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Est.QuoteDetails.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Est.QuoteSummary.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.GoodsCost.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.GoodsReceiptDetailsRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.GoodsReceiptRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.LocationTransfer.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ItemBOM.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ItemRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Man.IssueMaterials.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Man.MaterialTransferRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Man.ModificationOrderRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Man.RowMaterialRequestRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Man.ProductionOrderRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Production.AssemblyOrder.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ProductionKitDetailsRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ProductionKitRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Proj.ProjDetailsRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Proj.ProjSummaryRpt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SCM.GoodsReceipt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SCM.PurchaseInvoice.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SCM.PurchaseOrder.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.DeliveryReceipt.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.DeliveryReceiptGroup.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.JobOrderCopmact.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.JobOrderGroup.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.ProInvoice.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.SalesInvoice.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.SalesOrder.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.StockReceiptCompact.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.StockReceiptGroup.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Resources.GeneralResources.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.Resources.Notifications.resources
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.csproj.GenerateResource.cache
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.dll.licenses
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.csproj.CoreCompileInputs.cache
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.dll
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.pdb
+D:\ERP\ERPSYS\bin\ERPSYS.dll.config
+D:\ERP\ERPSYS\bin\ERPSYS.dll
+D:\ERP\ERPSYS\bin\ERPSYS.pdb
+D:\ERP\ERPSYS\bin\Newtonsoft.Json.dll
+D:\ERP\ERPSYS\bin\Newtonsoft.Json.xml
+D:\ERP\ERPSYS\obj\Debug\ERPSYS.csproj.CopyComplete
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\bin\ERPSYS.dll.config
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\bin\ERPSYS.dll
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\bin\ERPSYS.pdb
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Est.QuoteDetails.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Est.QuoteSummary.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.GoodsCost.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.GoodsReceiptDetailsRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.GoodsReceiptRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Inventory.LocationTransfer.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ItemBOM.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ItemRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Man.IssueMaterials.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Man.MaterialTransferRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Man.ModificationOrderRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Man.RowMaterialRequestRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Man.ProductionOrderRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Production.AssemblyOrder.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ProductionKitDetailsRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Item.ProductionKitRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Proj.ProjDetailsRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.Proj.ProjSummaryRpt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SCM.GoodsReceipt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SCM.PurchaseInvoice.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SCM.PurchaseOrder.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.DeliveryReceipt.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.DeliveryReceiptGroup.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.JobOrderCopmact.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.JobOrderGroup.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.ProInvoice.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.SalesInvoice.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.SalesOrder.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.StockReceiptCompact.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Reports.SM.StockReceiptGroup.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Resources.GeneralResources.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.Resources.Notifications.resources
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.dll.licenses
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.csproj.CopyComplete
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.dll
+C:\Users\Admin\Desktop\MyPackup Not Changes\ERP\ERPSYS\obj\Debug\ERPSYS.pdb

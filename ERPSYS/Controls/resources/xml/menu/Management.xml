@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Group>
+    <Item Text="Products">
+      <Group Flow="Vertical">
+        <Item Text="Price List" Href="~/ERP/item/item-price-list.aspx" />
+        <Item  IsSeparator="True" />
+        <Item Text="Products">
+          <Group Flow="Vertical">
+            <Item Text="Products List" Href="~/ERP/item/item-list.aspx" />
+          </Group>
+        </Item>
+      </Group>
+      <Item Text="Bill Of Material">
+        <Group Flow="Vertical">
+          <Item Text="(BOM) Products List" Href="~/ERP/item/item-bom-list.aspx" />
+        </Group>
+      </Item>
+    </Item>
+    <Item Text="Inventory">
+      <Group>
+        <Item Text="Current Stock" Href="~/ERP/inventory/inv-item-list.aspx" />
+      </Group>
+    </Item>
+    <Item Text="Email">
+      <Group Flow="Vertical">
+        <Item Text="Send Email" Href="~/ERP/mail/mail-send.aspx" />
+      </Group>
+    </Item>
+    <Item Text="File Management" width="120px">
+      <Group>
+        <Item Text="Files List" Href="~/ERP/files/file-list.aspx" />
+      </Group>
+    </Item>
+  </Group>
+</Menu>
+
+

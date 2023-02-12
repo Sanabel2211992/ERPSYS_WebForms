@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="ERPSYS.ERP.LoginMasterPage" %>
+
+<%@ Register Src="~/Controls/Common/UCFooter.ascx" TagPrefix="uc1" TagName="UCFooter" %>
+<%@ Register Src="../Controls/Common/UCHeaderLogin.ascx" TagName="UCHeaderLogin" TagPrefix="uc2" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>FTMC ERP</title>
+    <link href="~/ERP/resources/css/main.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="cphLoginHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <uc2:UCHeaderLogin ID="UCHeaderLogin" runat="server" />
+        </div>
+        <div class="line"></div>
+        <div class="min-container">
+            <div>
+                <asp:ContentPlaceHolder ID="cphLoginMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="footer">
+            <uc1:UCFooter runat="server" ID="UCFooter" />
+        </div>
+    </form>
+</body>
+</html>

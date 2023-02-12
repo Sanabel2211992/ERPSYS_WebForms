@@ -1,0 +1,79 @@
+﻿/*notification message style*/
+/*.messages-logo {
+    height:32px; width:32px;
+    float:left;
+    background:url(../images/notification/message_nification1.png)
+}
+
+.messages-text {
+    margin-left:40px;
+    padding:6px 0
+}
+
+.messages-error { 
+    background: #ff0509; 
+    background: -moz-linear-gradient(left, #ff0509 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ff0509), color-stop(100%,#ffffff)); 
+    background: -webkit-linear-gradient(left, #ff0509 0%,#ffffff 100%); 
+    background: -o-linear-gradient(left, #ff0509 0%,#ffffff 100%); 
+    background: -ms-linear-gradient(left, #ff0509 0%,#ffffff 100%); 
+    background: linear-gradient(to right, #ff0509 0%,#ffffff 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0509', endColorstr='#ffffff',GradientType=1 ); 
+    color:#fff;   
+}
+.messages-error .messages-logo {
+    background-position:-64px 0
+}
+
+.messages-warning { 
+    background: #c1c323;
+    background: -moz-linear-gradient(left, #c1c323 0%, #ffffff 100%); 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#c1c323), color-stop(100%,#ffffff)); 
+    background: -webkit-linear-gradient(left, #c1c323 0%,#ffffff 100%); 
+    background: -o-linear-gradient(left, #c1c323 0%,#ffffff 100%); 
+    background: -ms-linear-gradient(left, #c1c323 0%,#ffffff 100%);
+    background: linear-gradient(to right, #c1c323 0%,#ffffff 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1c323', endColorstr='#ffffff',GradientType=1 ); 
+    color:#fff;}
+
+.messages-warning .messages-logo {
+    background-position:-32px 0
+}
+
+.messages-success { background: #62c102; 
+    background: -moz-linear-gradient(left, #62c102 0%, #ffffff 100%); 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#62c102), color-stop(100%,#ffffff)); 
+    background: -webkit-linear-gradient(left, #62c102 0%,#ffffff 100%); 
+    background: -o-linear-gradient(left, #62c102 0%,#ffffff 100%); 
+    background: -ms-linear-gradient(left, #62c102 0%,#ffffff 100%);
+    background: linear-gradient(to right, #62c102 0%,#ffffff 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62c102', endColorstr='#ffffff',GradientType=1 ); 
+    color:#FFF;  
+}
+
+.messages-success .messages-logo {
+    background-position:0 0ئ
+}/*/
+/*notification message style*//*
+.messages-logo {height:32px; width:32px; float:left; background:url(../images/notification/message_koko.png)}
+.messages-text {margin-left:40px; padding:6px 0}
+.messages-error {background-color:#fbe3e4; color:#d12f19; border:solid 1px #fbc2c4}
+.messages-error .messages-logo {background-position:-64px 0}
+.messages-warning {background-color:#faffcf; color:#5e5f00; border:solid 1px #edef00}
+.messages-warning .messages-logo {background-position:-32px 0}
+.messages-success {background-color:#e0efd1; color:#003300; border:solid 1px #a5cc7a}
+.messages-success .messages-logo {background-position:0 0}
+    */
+   
+
+/*notification message style*/
+
+.messages-logo {height:32px; width:32px; float:left; background:url(../images/notification/message_logos3.png); margin-top:12px; margin-left:10px; margin-right:5px; }
+.messages-title {margin-left:20px;color:#000;  font-size:14px; padding:5px 5px 0 0; margin-top:5px; font-weight:bold; }
+.messages-text {margin-left:20px;color:#000;  font-size:11px; padding:2px 5px 14px 0; }
+.messages-error {background-color:#ffd9da; border:solid 1px red; border-radius:5px;   margin:5px 0 -20px 0;}
+.messages-error .messages-logo {background-position:-64px 0}
+.messages-warning {background-color:#fffde9;border:solid 1px #edef00; border-radius:5px;   margin:5px 0 -20px 0;}
+.messages-warning .messages-logo {background-position:-32px 0}
+.messages-success {background-color:#c8f09e;border:solid 1px #55a308; border-radius:5px; margin:5px 0 -20px 0;}
+.messages-success .messages-logo {background-position:0 0;}

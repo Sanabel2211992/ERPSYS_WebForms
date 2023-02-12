@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Dialog.master.cs" Inherits="ERPSYS.Controls.DialogBox.Dialog" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<%@ Register Src="../Common/UCNotification.ascx" TagName="UCNotification" TagPrefix="ucnotification" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/ERP/resources/css/main.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Controls/resources/css/notification.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="dcpHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height: 100%">
+            <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+                <Scripts>
+                    <asp:ScriptReference Path="~/ERP/resources/js/jquery-1.8.2.min.js" />
+                    <asp:ScriptReference Path="~/ERP/resources/js/ddmenu.js" />
+                </Scripts>
+            </telerik:RadScriptManager>
+        </div>
+        <div>
+            <ucnotification:UCNotification ID="NotificationBox" runat="server" />
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="dcphMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

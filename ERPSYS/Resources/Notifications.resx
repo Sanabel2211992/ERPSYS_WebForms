@@ -1,0 +1,1599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="customer_add_duplicate" xml:space="preserve">
+    <value>Operation failed, Customer name already exists.</value>
+  </data>
+  <data name="customer_add_failed" xml:space="preserve">
+    <value>Operation failed, Customer information added failed.</value>
+  </data>
+  <data name="customer_add_success" xml:space="preserve">
+    <value>Customer information added successfully.</value>
+  </data>
+  <data name="customer_update_failed" xml:space="preserve">
+    <value>Operation failed, Customer information updated failed.</value>
+  </data>
+  <data name="customer_update_success" xml:space="preserve">
+    <value>Customer information updated successfully.</value>
+  </data>
+  <data name="item_add_duplicate" xml:space="preserve">
+    <value>Product already exists.</value>
+  </data>
+  <data name="item_add_failed" xml:space="preserve">
+    <value>Product added failed.</value>
+  </data>
+  <data name="item_add_success" xml:space="preserve">
+    <value>Product added successfully.</value>
+  </data>
+  <data name="item_update_failed" xml:space="preserve">
+    <value>Product updated failed.</value>
+  </data>
+  <data name="item_update_success" xml:space="preserve">
+    <value>Product updated successfully.</value>
+  </data>
+  <data name="item_update_duplicate" xml:space="preserve">
+    <value>Product name already exists.</value>
+  </data>
+  <data name="kit_add_duplicate" xml:space="preserve">
+    <value>Production Kit name already exists.</value>
+  </data>
+  <data name="kit_add_failed" xml:space="preserve">
+    <value>Production Kit added failed.</value>
+  </data>
+  <data name="kit_add_success" xml:space="preserve">
+    <value>Production Kit added successfully.</value>
+  </data>
+  <data name="kit_not_found" xml:space="preserve">
+    <value>Production Kit not found.</value>
+  </data>
+  <data name="kit_update_duplicate" xml:space="preserve">
+    <value>Production Kit name already exists.</value>
+  </data>
+  <data name="kit_update_success" xml:space="preserve">
+    <value>Production Kit updated successfully.</value>
+  </data>
+  <data name="settings_company_update_failed" xml:space="preserve">
+    <value>Company Settings updated failed.</value>
+  </data>
+  <data name="settings_company_update_success" xml:space="preserve">
+    <value>Company Settings updated successfully.</value>
+  </data>
+  <data name="supplier_add_duplicate" xml:space="preserve">
+    <value>Supplier already  exists.</value>
+  </data>
+  <data name="supplier_add_failed" xml:space="preserve">
+    <value>Supplier added failed.</value>
+  </data>
+  <data name="supplier_add_success" xml:space="preserve">
+    <value>Supplier added successfully.</value>
+  </data>
+  <data name="supplier_update_failed" xml:space="preserve">
+    <value>Supplier updated failed.</value>
+  </data>
+  <data name="supplier_update_success" xml:space="preserve">
+    <value>Supplier updated successfully.</value>
+  </data>
+  <data name="upload_file_failed" xml:space="preserve">
+    <value>Upload file failed.</value>
+  </data>
+  <data name="user_add_duplicate" xml:space="preserve">
+    <value>User name already exists.</value>
+  </data>
+  <data name="user_add_failed" xml:space="preserve">
+    <value>User added failed.</value>
+  </data>
+  <data name="user_add_success" xml:space="preserve">
+    <value>User added successfully.</value>
+  </data>
+  <data name="user_update_failed" xml:space="preserve">
+    <value>User updated failed.</value>
+  </data>
+  <data name="supplier_id_not_exist" xml:space="preserve">
+    <value>Oops ! Supplier id is invalid or does not exists.</value>
+  </data>
+  <data name="customer_update_duplicate" xml:space="preserve">
+    <value>Operation failed, Customer name already exists.</value>
+  </data>
+  <data name="error_not_defined" xml:space="preserve">
+    <value>Error not defined, Please try again.</value>
+  </data>
+  <data name="company_update_failed" xml:space="preserve">
+    <value>Company updated failed</value>
+  </data>
+  <data name="supplier_update_duplicate" xml:space="preserve">
+    <value>Supplier already  exists.</value>
+  </data>
+  <data name="page_add_duplicate" xml:space="preserve">
+    <value>Page name already exists.</value>
+  </data>
+  <data name="page_add_success" xml:space="preserve">
+    <value>Page Information added successfully.</value>
+  </data>
+  <data name="page_id_not_exist" xml:space="preserve">
+    <value>Oops ! Page id is invalid or does not exists.</value>
+  </data>
+  <data name="page_update_success" xml:space="preserve">
+    <value>Page Information updated successfully.</value>
+  </data>
+  <data name="user_update_duplicate" xml:space="preserve">
+    <value>User name already exists.</value>
+  </data>
+  <data name="user_update_success" xml:space="preserve">
+    <value>User updated successfully.</value>
+  </data>
+  <data name="sales_invoice_post_success" xml:space="preserve">
+    <value>Sales Invoice posted successfully.</value>
+  </data>
+  <data name="kit_item_info_not_save" xml:space="preserve">
+    <value>Please save the Product information before you save the Production Kit</value>
+  </data>
+  <data name="kit_item_not_select" xml:space="preserve">
+    <value>No Product selected, Please select at least one Product to save the Production Kit</value>
+  </data>
+  <data name="kit_item_not_valid" xml:space="preserve">
+    <value>Please select a valid Item</value>
+  </data>
+  <data name="user_change_password_failed" xml:space="preserve">
+    <value>Update password failed because the old password is not correct.</value>
+  </data>
+  <data name="sales_order_cancel_failed" xml:space="preserve">
+    <value>You can't cancel inactive order.</value>
+  </data>
+  <data name="global_grid_Items_delete_success" xml:space="preserve">
+    <value>Product deleted successfully.</value>
+  </data>
+  <data name="global_grid_Item_add_success" xml:space="preserve">
+    <value>Product added successfully.</value>
+  </data>
+  <data name="global_grid_Item_delete_success" xml:space="preserve">
+    <value>Product deleted successfully.</value>
+  </data>
+  <data name="global_grid_Item_update_success" xml:space="preserve">
+    <value>Product updated successfully.</value>
+  </data>
+  <data name="sales_order_item_add_failed_inactive" xml:space="preserve">
+    <value>sales_order_master_item_add_failed_inactive</value>
+  </data>
+  <data name="sales_order_item_delete_failed_inactive" xml:space="preserve">
+    <value>sales_order_item_delete_failed_inactive</value>
+  </data>
+  <data name="sales_order_item_update_failed_inactive" xml:space="preserve">
+    <value>sales_order_master_item_update_failed_inactive</value>
+  </data>
+  <data name="sales_order_master_item_exist" xml:space="preserve">
+    <value>Oops ! This item already exist in Sales Order.</value>
+  </data>
+  <data name="sales_order_sub_item_exist" xml:space="preserve">
+    <value>sales_order_sub_item_exist</value>
+  </data>
+  <data name="sales_invoice_post_inactive" xml:space="preserve">
+    <value>Operation failed, You can't post Sales Invoice.</value>
+  </data>
+  <data name="sales_invoice_post_failed" xml:space="preserve">
+    <value>Operation failed, You can't post Sales Invoice.</value>
+  </data>
+  <data name="sales_invoice_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete Sales Invoice.</value>
+  </data>
+  <data name="sales_invoice_delete_posted" xml:space="preserve">
+    <value>sales_invoice_delete_posted</value>
+  </data>
+  <data name="sales_invoice_delete_success" xml:space="preserve">
+    <value>Sales Invoice deleted successfully.</value>
+  </data>
+  <data name="sales_order_summary_update_failed" xml:space="preserve">
+    <value>sales_order_summary_update_failed</value>
+  </data>
+  <data name="sales_invoice_sub_item_exist" xml:space="preserve">
+    <value>sales_invoice_sub_item_exist</value>
+  </data>
+  <data name="sales_quote_sub_item_exist" xml:space="preserve">
+    <value>sales_quote_sub_item_exist</value>
+  </data>
+  <data name="sales_quote_item_add_failed_inactive" xml:space="preserve">
+    <value>sales_quote_item_add_failed_inactive</value>
+  </data>
+  <data name="sales_quote_item_delete_failed_inactive" xml:space="preserve">
+    <value>sales_quote_item_delete_failed_inactive</value>
+  </data>
+  <data name="sales_quote_item_update_failed_inactive" xml:space="preserve">
+    <value>sales_quote_item_update_failed_inactive</value>
+  </data>
+  <data name="sales_quote_master_item_exist" xml:space="preserve">
+    <value>sales_quote_master_item_exist</value>
+  </data>
+  <data name="sales_quote_update_failed" xml:space="preserve">
+    <value>sales_quote_update_failed</value>
+  </data>
+  <data name="sales_quote_cancel_failed" xml:space="preserve">
+    <value>Sales Quotation cancel failed.</value>
+  </data>
+  <data name="sales_quote_clone_failed" xml:space="preserve">
+    <value>Sales Quotation clone failed.</value>
+  </data>
+  <data name="sales_invoice_id_not_exist" xml:space="preserve">
+    <value>Oops ! Sales Invoice id is invalid or does not exists.</value>
+  </data>
+  <data name="sales_quote_clone_success" xml:space="preserve">
+    <value>Sales Quotation cloned successfully.</value>
+  </data>
+  <data name="sales_order_id_not_exist" xml:space="preserve">
+    <value>Oops ! Sales Order id is invalid or does not exists.</value>
+  </data>
+  <data name="sales_quote_id_not_exist" xml:space="preserve">
+    <value>Oops ! Sales Quotation id is invalid or does not exists.</value>
+  </data>
+  <data name="sm_dr_id_not_exist" xml:space="preserve">
+    <value>Oops ! Delivery Receipt id is invalid or does not exists.</value>
+  </data>
+  <data name="sales_quote_cancel_success" xml:space="preserve">
+    <value>Sales Quotation canceled successfully.</value>
+  </data>
+  <data name="sales_quote_inactive" xml:space="preserve">
+    <value>sales_quote_inactive</value>
+  </data>
+  <data name="job_order_id_not_exist" xml:space="preserve">
+    <value>Oops ! Job Order id is invalid or does not exists.</value>
+  </data>
+  <data name="job_order_inactive" xml:space="preserve">
+    <value>Operation failed, You can't do this operation for inactive Job Order.</value>
+  </data>
+  <data name="job_order_item_add_failed_inactive" xml:space="preserve">
+    <value>Operation failed, You can't modify products because the Job Order is closed.</value>
+  </data>
+  <data name="job_order_item_delete_failed_inactive" xml:space="preserve">
+    <value>Operation failed, Job Order is inactive.</value>
+  </data>
+  <data name="job_order_item_update_failed_inactive" xml:space="preserve">
+    <value>Operation failed, Job Order is inactive.</value>
+  </data>
+  <data name="job_order_master_item_exist" xml:space="preserve">
+    <value>Operation failed, Product is already exists.</value>
+  </data>
+  <data name="job_order_production_add_failed_inactive" xml:space="preserve">
+    <value>Operation failed, Job Order is inactive.</value>
+  </data>
+  <data name="job_order_production_add_failed_not_available" xml:space="preserve">
+    <value>job_order_production_add_failed_not_available</value>
+  </data>
+  <data name="job_order_production_no_available_item" xml:space="preserve">
+    <value>There is no available Kit to Start Production Order.</value>
+  </data>
+  <data name="job_order_work_order_close_failed_inactive" xml:space="preserve">
+    <value>job_order_inactive</value>
+  </data>
+  <data name="job_order_work_order_inactive" xml:space="preserve">
+    <value>job_order_work_order_inactive</value>
+  </data>
+  <data name="payment_method_add_duplicate" xml:space="preserve">
+    <value>Payment method add duplicate</value>
+  </data>
+  <data name="payment_method_add_success" xml:space="preserve">
+    <value>Payment method added successfully.</value>
+  </data>
+  <data name="payment_method_update_success" xml:space="preserve">
+    <value>Payment method  updated successfully.</value>
+  </data>
+  <data name="payment_method_update_duplicate" xml:space="preserve">
+    <value>payment method update duplicate</value>
+  </data>
+  <data name="job_order_close_failed" xml:space="preserve">
+    <value>Operation can't be completed because some operations are not complete yet in Job Order.</value>
+  </data>
+  <data name="job_order_item_delete_failed_quantity_exceed" xml:space="preserve">
+    <value>job_order_item_delete_failed_quantity_exceed</value>
+  </data>
+  <data name="job_order_item_update_failed_quantity_exceed" xml:space="preserve">
+    <value>job_order_item_update_failed_quantity_exceed</value>
+  </data>
+  <data name="job_order_cancel_failed" xml:space="preserve">
+    <value>job_order_cancel_failed</value>
+  </data>
+  <data name="job_order_production_add_failed_rm_not_available" xml:space="preserve">
+    <value>job_order_production_add_failed_rm_not_available</value>
+  </data>
+  <data name="job_order_work_order_close_failed_rm_not_available" xml:space="preserve">
+    <value>job_order_work_order_close_failed_rm_not_available</value>
+  </data>
+  <data name="job_order_work_orde_close_failed_not_available" xml:space="preserve">
+    <value>job_order_work_orde_close_failed_not_available</value>
+  </data>
+  <data name="user_update_permission_success" xml:space="preserve">
+    <value>User permissions updated successfully.</value>
+  </data>
+  <data name="group_permission_update_success" xml:space="preserve">
+    <value>Operation Updates Successfully.</value>
+  </data>
+  <data name="sales_quote_item_replace_failed_inactive" xml:space="preserve">
+    <value>sales_quote_item_replace_failed_inactive</value>
+  </data>
+  <data name="global_grid_Item_replace_success" xml:space="preserve">
+    <value>Product replaced successfully.</value>
+  </data>
+  <data name="file_upload_failed" xml:space="preserve">
+    <value>Oops ! File upload failed.</value>
+  </data>
+  <data name="global_grid_Item_clone_success" xml:space="preserve">
+    <value>Product cloned successfully.</value>
+  </data>
+  <data name="sales_quote_item_clone_failed_inactive" xml:space="preserve">
+    <value>sales_quote_item_clone_failed_inactive</value>
+  </data>
+  <data name="sales_quote_revise_failed" xml:space="preserve">
+    <value>Sales Quotation revise successfully.</value>
+  </data>
+  <data name="sales_quote_close_failed" xml:space="preserve">
+    <value>Sales Quotation close failed.</value>
+  </data>
+  <data name="sales_quote_close_success" xml:space="preserve">
+    <value>Sales Quotation closed successfully.</value>
+  </data>
+  <data name="sales_quote_revise_success" xml:space="preserve">
+    <value>Sales Quotation revised successfully.</value>
+  </data>
+  <data name="sales_quote_job_order_failed" xml:space="preserve">
+    <value>Create Job Order failed, Quotation not closed.</value>
+  </data>
+  <data name="sales_quote_lose_failed" xml:space="preserve">
+    <value>sales_quote_lose_failed</value>
+  </data>
+  <data name="sales_order_quote_not_pending" xml:space="preserve">
+    <value>Create Sales Order failed.</value>
+  </data>
+  <data name="sales_order_quote_already_created" xml:space="preserve">
+    <value>Sales Order already created for this Quotaion.</value>
+  </data>
+  <data name="job_order_sales_order_not_kit" xml:space="preserve">
+    <value>No kits found in the Quotation to strart Job Order (Production Order).</value>
+  </data>
+  <data name="job_order_sales_order_already_created" xml:space="preserve">
+    <value>job_order_sales_order_already_created</value>
+  </data>
+  <data name="job_order_sales_order_not_active" xml:space="preserve">
+    <value>job_order_sales_order_not_active</value>
+  </data>
+  <data name="sales_order_create_failed_not_pending" xml:space="preserve">
+    <value>sales_order_create_failed_not_pending</value>
+  </data>
+  <data name="sales_order_create_failed_partial" xml:space="preserve">
+    <value>sales_order_create_failed_partial</value>
+  </data>
+  <data name="sales_order_master_order_deny" xml:space="preserve">
+    <value>sales_order_master_order_deny</value>
+  </data>
+  <data name="sales_order_partial_order_deny" xml:space="preserve">
+    <value>sales_order_partial_order_deny</value>
+  </data>
+  <data name="sales_order_create_failed_not_enough_quantity" xml:space="preserve">
+    <value>sales_order_create_failed_not_enough_quantity</value>
+  </data>
+  <data name="sales_invoice_create_from_order_failed" xml:space="preserve">
+    <value>Create New Invoice Failed.</value>
+  </data>
+  <data name="sales_invoice_has_delivery_note" xml:space="preserve">
+    <value>sales_invoice_has_delivery_note</value>
+  </data>
+  <data name="sales_invoice_insufficient_quantity" xml:space="preserve">
+    <value>You can't post Sales Invoice because the stock has insufficient quantity.</value>
+  </data>
+  <data name="sales_order_insufficient_quantity" xml:space="preserve">
+    <value>sales_order_insufficient_quantity</value>
+  </data>
+  <data name="sales_invoice_delivery_rcpt_add_failed" xml:space="preserve">
+    <value>sales_invoice_delivery_rcpt_add_failed</value>
+  </data>
+  <data name="sales_invoice_refund_success" xml:space="preserve">
+    <value>Sales Invoice refunded successfully.</value>
+  </data>
+  <data name="sales_invoice_refund_not_post" xml:space="preserve">
+    <value>Operation failed, You can't refund Sales Invoice.</value>
+  </data>
+  <data name="sales_quote_pivot_not_available" xml:space="preserve">
+    <value>Pivot view available only for group products.</value>
+  </data>
+  <data name="sales_order_items_invalid" xml:space="preserve">
+    <value>Invalid Items.</value>
+  </data>
+  <data name="sales_quote_items_invalid" xml:space="preserve">
+    <value>Invalid Items.</value>
+  </data>
+  <data name="sales_invoice_items_invalid" xml:space="preserve">
+    <value>Invalid Items.</value>
+  </data>
+  <data name="job_order_item_invalid" xml:space="preserve">
+    <value>Invalid Items.</value>
+  </data>
+  <data name="job_order_modification_add_failed_inactive" xml:space="preserve">
+    <value>Operation failed, Job Order is inactive.</value>
+  </data>
+  <data name="job_order_modification_add_failed_not_available" xml:space="preserve">
+    <value>Operation failed, Insufficient Quantity</value>
+  </data>
+  <data name="job_order_modification_no_available_item" xml:space="preserve">
+    <value>There is no available items to Start Modification Order.</value>
+  </data>
+  <data name="job_order_work_order_insufficient_quantity" xml:space="preserve">
+    <value>Operation failed, Insufficient Quantity</value>
+  </data>
+  <data name="location_add_duplicate" xml:space="preserve">
+    <value>Location name already exists.</value>
+  </data>
+  <data name="location_update_duplicate" xml:space="preserve">
+    <value>Location name already exists.</value>
+  </data>
+  <data name="location_add_success" xml:space="preserve">
+    <value>Location added successfully.</value>
+  </data>
+  <data name="location_update_success" xml:space="preserve">
+    <value>Location updated successfully.</value>
+  </data>
+  <data name="location_id_not_exist" xml:space="preserve">
+    <value>Oops ! Location id is invalid or does not exists.</value>
+  </data>
+  <data name="inv_transfer_delete_success" xml:space="preserve">
+    <value>Stock Transfer deleted successfully.</value>
+  </data>
+  <data name="inv_transfer_id_not_exist" xml:space="preserve">
+    <value>Oops ! Stock Transfer id is invalid or does not exists.</value>
+  </data>
+  <data name="inv_transfer_post_failed" xml:space="preserve">
+    <value>Stock Transfer post failed.</value>
+  </data>
+  <data name="inv_transfer_item_invalid" xml:space="preserve">
+    <value>Operation failed, Invalid Items.</value>
+  </data>
+  <data name="inv_transfer_item_exist" xml:space="preserve">
+    <value>Operation failed, Product is already exists.</value>
+  </data>
+  <data name="items_delete_success" xml:space="preserve">
+    <value>Product deleted successfully.</value>
+  </data>
+  <data name="inv_transfer_status_invalid" xml:space="preserve">
+    <value>Operation failed, Stock Transfer already posted.</value>
+  </data>
+  <data name="inv_transfer_insufficient_quantity" xml:space="preserve">
+    <value>Operation failed insufficient quantity in source stock.</value>
+  </data>
+  <data name="inv_transfer_post_success" xml:space="preserve">
+    <value>Stock Transfer posted successfully</value>
+  </data>
+  <data name="scm_po_add_failed" xml:space="preserve">
+    <value>scm_po_add_failed.</value>
+  </data>
+  <data name="scm_po_invalid_status" xml:space="preserve">
+    <value>scm_po_invalid_status.</value>
+  </data>
+  <data name="scm_po_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Purchase Order.</value>
+  </data>
+  <data name="scm_po_update_header_failed" xml:space="preserve">
+    <value>scm_po_update_header_failed.</value>
+  </data>
+  <data name="scm_po_update_summary_failed" xml:space="preserve">
+    <value>scm_po_update_summary_failed.</value>
+  </data>
+  <data name="scm_po_id_not_exist" xml:space="preserve">
+    <value>Oops ! Purchase Order id is invalid or does not exists.</value>
+  </data>
+  <data name="scm_grn_item_exist" xml:space="preserve">
+    <value>scm_grn_item_exist.</value>
+  </data>
+  <data name="scm_grn_status_invalid" xml:space="preserve">
+    <value>scm_grn_status_invalid.</value>
+  </data>
+  <data name="scm_grn_id_not_exist" xml:space="preserve">
+    <value>Oops ! Material Receipt id is invalid or does not exists.</value>
+  </data>
+  <data name="scm_grn_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Goods Receipt.</value>
+  </data>
+  <data name="scm_pi_id_not_exist" xml:space="preserve">
+    <value>Oops ! Purchase Invoice id is invalid or does not exists.</value>
+  </data>
+  <data name="scm_pi_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Purchase Invoice.</value>
+  </data>
+  <data name="scm_pi_update_summary_failed" xml:space="preserve">
+    <value>scm_pi_update_summary_failed.</value>
+  </data>
+  <data name="scm_pi_add_failed" xml:space="preserve">
+    <value>scm_pi_add_failed.</value>
+  </data>
+  <data name="scm_pi_update_pricing_failed" xml:space="preserve">
+    <value>scm_pi_update_pricing_failed.</value>
+  </data>
+  <data name="scm_grn_add_failed" xml:space="preserve">
+    <value>scm_grn_add_failed.</value>
+  </data>
+  <data name="scm_grn_po_inactive" xml:space="preserve">
+    <value>scm_grn_po_inactive.</value>
+  </data>
+  <data name="scm_grn_invalid_status" xml:space="preserve">
+    <value>Material Receipt posted failed, because the purchase order is closed.</value>
+  </data>
+  <data name="scm_pi_grn_inactive" xml:space="preserve">
+    <value>scm_pi_grn_inactive.</value>
+  </data>
+  <data name="scm_pi_grn_qty_invalid" xml:space="preserve">
+    <value>scm_pi_grn_qty_invalid.</value>
+  </data>
+  <data name="sales_order_update_inactive" xml:space="preserve">
+    <value>Sales Order update failed, because the sales order is inactive.</value>
+  </data>
+  <data name="sales_order_update_success" xml:space="preserve">
+    <value>Sales Order Information updated successfully.</value>
+  </data>
+  <data name="sm_dr_add_failed" xml:space="preserve">
+    <value>Invalid Delivery Receipt Quantity.</value>
+  </data>
+  <data name="sm_dr_insufficient_quantity" xml:space="preserve">
+    <value>You can't post Delivery Receipt because the stock has  insufficient quantity.</value>
+  </data>
+  <data name="sm_dr_post_inactive" xml:space="preserve">
+    <value>sm_dr_post_inactive.</value>
+  </data>
+  <data name="sales_invoice_master_item_exist" xml:space="preserve">
+    <value>Oops ! This item already exist in Sales Invoice.</value>
+  </data>
+  <data name="sales_order_add_joborder_failed" xml:space="preserve">
+    <value>sales_order_add_joborder_failed.</value>
+  </data>
+  <data name="sm_si_add_failed" xml:space="preserve">
+    <value>Operation failed.</value>
+  </data>
+  <data name="sales_order_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete posted Sales Order.</value>
+  </data>
+  <data name="sales_order_delete_success" xml:space="preserve">
+    <value>Sales Order deleted successfully.</value>
+  </data>
+  <data name="sales_order_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Sales Order.</value>
+  </data>
+  <data name="sales_order_post_success" xml:space="preserve">
+    <value>Sales Order Information posted successfully.</value>
+  </data>
+  <data name="sales_order_post_failed" xml:space="preserve">
+    <value>Operation failed, Sales Order already posted.</value>
+  </data>
+  <data name="sm_dr_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete posted Deleivery Receipt.</value>
+  </data>
+  <data name="sm_dr_delete_success" xml:space="preserve">
+    <value>Delivery Receipt deleted successfully.</value>
+  </data>
+  <data name="sm_dr_delete_failed_inactive" xml:space="preserve">
+    <value>Operation failed, You can't delete this item.</value>
+  </data>
+  <data name="sm_dr_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Deleivery Receipt.</value>
+  </data>
+  <data name="sm_dr_post_failed" xml:space="preserve">
+    <value>Operation failed, You can't post Deleivery Receipt.</value>
+  </data>
+  <data name="sm_dr_post_success" xml:space="preserve">
+    <value>Delivery Receipt posted successfully.</value>
+  </data>
+  <data name="sm_dr_update_success" xml:space="preserve">
+    <value>Delivery Receipt updated successfully.</value>
+  </data>
+  <data name="sales_invoice_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Sales Invoice.</value>
+  </data>
+  <data name="sales_order_inactive" xml:space="preserve">
+    <value>Operation failed, You can't adjust inactive Sales Order.</value>
+  </data>
+  <data name="sales_order_exclude_failed" xml:space="preserve">
+    <value>Operation failed, You can't exclude this Product from group.</value>
+  </data>
+  <data name="sales_invoice_group_empty" xml:space="preserve">
+    <value>Operation failed, You can't post Sales Invoice because  some groups is empty.</value>
+  </data>
+  <data name="sales_order_group_empty" xml:space="preserve">
+    <value>Operation failed, You can't post Sales Order because some groups is empty.</value>
+  </data>
+  <data name="scm_grn_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete posted Goods Receipt.</value>
+  </data>
+  <data name="scm_grn_delete_success" xml:space="preserve">
+    <value>Goods Receipt deleted successfully.</value>
+  </data>
+  <data name="scm_pi_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete posted Purchase Invoice.</value>
+  </data>
+  <data name="scm_pi_delete_success" xml:space="preserve">
+    <value>Purchase Invoice deleted successfully.</value>
+  </data>
+  <data name="scm_po_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete posted Purchase Order.</value>
+  </data>
+  <data name="scm_po_delete_success" xml:space="preserve">
+    <value>Purchase Order deleted successfully.</value>
+  </data>
+  <data name="scm_grn_post_success" xml:space="preserve">
+    <value>Material Receipt posted successfully.</value>
+  </data>
+  <data name="scm_pi_post_failed" xml:space="preserve">
+    <value>Operation failed, Purchase Invoice already posted.</value>
+  </data>
+  <data name="scm_pi_update_failed" xml:space="preserve">
+    <value>Operation failed, you can't update posted Purchase Invoice.</value>
+  </data>
+  <data name="item_id_not_exist" xml:space="preserve">
+    <value>Oops ! Catalog Product id is invalid or does not exists.</value>
+  </data>
+  <data name="item_bom_exists" xml:space="preserve">
+    <value>Operation failed, this Product already exists in the bill of material list.</value>
+  </data>
+  <data name="item_bom_not_exists" xml:space="preserve">
+    <value>Operation failed, Product not exists in the bill of material list.</value>
+  </data>
+  <data name="prod_assembly_delete_success" xml:space="preserve">
+    <value>Assembly Order deleted successfully.</value>
+  </data>
+  <data name="man_assembly_order_id_not_exist" xml:space="preserve">
+    <value>Oops ! Assembly Order id is invalid or does not exists.</value>
+  </data>
+  <data name="man_assembly_order_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete Assembly Order.</value>
+  </data>
+  <data name="man_assembly_order_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Assembly Order bill of materials.</value>
+  </data>
+  <data name="man_assembly_order_post_failed" xml:space="preserve">
+    <value>Operation failed, You can't post Assembly Order.</value>
+  </data>
+  <data name="prod_assembly_order_post_success" xml:space="preserve">
+    <value>Assembly Order posted successfully.</value>
+  </data>
+  <data name="man_assembly_order_update_success" xml:space="preserve">
+    <value>Assembly Order Information updated successfully.</value>
+  </data>
+  <data name="prod_assembly_item_bom_exists" xml:space="preserve">
+    <value>Operation failed, this Product already exists in the bill of material list.</value>
+  </data>
+  <data name="prod_assembly_item_bom_not_exists" xml:space="preserve">
+    <value>Operation failed, Product not exists in the bill of material list.</value>
+  </data>
+  <data name="prod_assembly_inactive" xml:space="preserve">
+    <value>Operation failed, the Assembly Order is inactive.</value>
+  </data>
+  <data name="man_assembly_order_insufficient_quantity" xml:space="preserve">
+    <value>You can't post Assembly Order because the stock has insufficient quantity of materials.</value>
+  </data>
+  <data name="system_settings_update_success" xml:space="preserve">
+    <value>Settings updated successfully.</value>
+  </data>
+  <data name="customer_id_not_exist" xml:space="preserve">
+    <value>Oops ! Customer id is invalid or does not exists.</value>
+  </data>
+  <data name="payment_method_id_not_exist" xml:space="preserve">
+    <value>Oops ! Payment Method id is invalid or does not exists.</value>
+  </data>
+  <data name="uom_add_success" xml:space="preserve">
+    <value>Unit of Measure added successfully.</value>
+  </data>
+  <data name="uom_id_not_exist" xml:space="preserve">
+    <value>Oops ! Unit of Measure id is invalid or does not exists.</value>
+  </data>
+  <data name="uom_update_success" xml:space="preserve">
+    <value>Unit of Measure updated successfully.</value>
+  </data>
+  <data name="payment_terms_add_success" xml:space="preserve">
+    <value>Payment Terms added successfully.</value>
+  </data>
+  <data name="payment_terms_id_not_exist" xml:space="preserve">
+    <value>Oops ! Payment Terms id is invalid or does not exists.</value>
+  </data>
+  <data name="payment_terms_update_success" xml:space="preserve">
+    <value>Payment Terms updated successfully.</value>
+  </data>
+  <data name="user_id_not_exist" xml:space="preserve">
+    <value>Oops ! User id is invalid or does not exists.</value>
+  </data>
+  <data name="company_id_not_exist" xml:space="preserve">
+    <value>Oops ! Company id is invalid or does not exists.</value>
+  </data>
+  <data name="currency_id_not_exist" xml:space="preserve">
+    <value>Oops ! Currency id is invalid or does not exists.</value>
+  </data>
+  <data name="goods_consigned_item_id_not_exist" xml:space="preserve">
+    <value>Oops ! Catalog Product id is invalid or does not exists.</value>
+  </data>
+  <data name="goods_received_item_id_not_exist" xml:space="preserve">
+    <value>Oops ! Catalog Product id is invalid or does not exists.</value>
+  </data>
+  <data name="inv_transfer_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete posted Stock Transfer.</value>
+  </data>
+  <data name="sales_invoice_refund_deny" xml:space="preserve">
+    <value>Oops ! You can't refund Sales Invoice.</value>
+  </data>
+  <data name="sales_invoice_refund_no_records" xml:space="preserve">
+    <value>Oops ! no available items in Sales Invoice to refund.</value>
+  </data>
+  <data name="sales_invoice_number_not_exist" xml:space="preserve">
+    <value>Oops ! Sales Invoice Number does not exists.</value>
+  </data>
+  <data name="sm_si_refund_insufficient_quantity" xml:space="preserve">
+    <value>Operation failed, You can't post the refund Sales Invoice.</value>
+  </data>
+  <data name="currency_add_success" xml:space="preserve">
+    <value>Currency Information added successfully.</value>
+  </data>
+  <data name="currency_update_success" xml:space="preserve">
+    <value>Currency Information updated successfully.</value>
+  </data>
+  <data name="document_type_id_not_exist" xml:space="preserve">
+    <value>Oops ! Document Type id is invalid or does not exists.</value>
+  </data>
+  <data name="document_type_update_success" xml:space="preserve">
+    <value>Document Information updated successfully.</value>
+  </data>
+  <data name="currency_rate_update_success" xml:space="preserve">
+    <value>Currency rate updated successfully.</value>
+  </data>
+  <data name="sm_si_invalid_seq_number" xml:space="preserve">
+    <value>Operation failed, You can't post the Sales Invoice because the sequence number is invalid.</value>
+  </data>
+  <data name="sm_si_number_exists" xml:space="preserve">
+    <value>Operation failed, You can't post the Sales Invoice because the invoice number already exists.</value>
+  </data>
+  <data name="sm_si_has_job_order" xml:space="preserve">
+    <value>Oops ! somthing is going wrong when post the Sales Invoice .</value>
+  </data>
+  <data name="sm_si_refund_failed" xml:space="preserve">
+    <value>Operation failed, You can't refund the Sales Invoice.</value>
+  </data>
+  <data name="sm_si_refund_individual_before" xml:space="preserve">
+    <value>Operation failed, You can't refund the Sales Invoice.</value>
+  </data>
+  <data name="user_profile_image_size_exceed" xml:space="preserve">
+    <value>File size must not exceed 200 KB.</value>
+  </data>
+  <data name="user_profile_image_ext_not_allowed" xml:space="preserve">
+    <value>Only images are allowed, Select a valid image and try again.</value>
+  </data>
+  <data name="user_profile_update_success" xml:space="preserve">
+    <value>Your profile information saved successfully.</value>
+  </data>
+  <data name="user_change_password_success" xml:space="preserve">
+    <value>The Password changed successfully.</value>
+  </data>
+  <data name="department_update_duplicate" xml:space="preserve">
+    <value>Operation failed, Department name already exists.</value>
+  </data>
+  <data name="department_add_success" xml:space="preserve">
+    <value>Department added successfully.</value>
+  </data>
+  <data name="department_id_not_exist" xml:space="preserve">
+    <value>Oops ! Department id is invalid or does not exists.</value>
+  </data>
+  <data name="department_update_success" xml:space="preserve">
+    <value>Department updated successfully.</value>
+  </data>
+  <data name="role_add_success" xml:space="preserve">
+    <value>Role information added successfully.</value>
+  </data>
+  <data name="role_id_not_exist" xml:space="preserve">
+    <value>Oops ! Role id is invalid or does not exists.</value>
+  </data>
+  <data name="role_update_success" xml:space="preserve">
+    <value>Role Information updated successfully.</value>
+  </data>
+  <data name="sent_email_successfully" xml:space="preserve">
+    <value>Sent successfully.</value>
+  </data>
+  <data name="mail_setting_update_success" xml:space="preserve">
+    <value>Mail setting already exists.</value>
+  </data>
+  <data name="mail_settings_add_duplicate" xml:space="preserve">
+    <value>Mail settings already exists.</value>
+  </data>
+  <data name="mail_settings_update_duplicate" xml:space="preserve">
+    <value>Mail settings updated successfully.</value>
+  </data>
+  <data name="mail_setting_add_success" xml:space="preserve">
+    <value>Mail setting added successfully.</value>
+  </data>
+  <data name="mail_settings_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete this mail setting because it Default.</value>
+  </data>
+  <data name="mail_settings_delete_success" xml:space="preserve">
+    <value>Mailsettings deleted successfully.</value>
+  </data>
+  <data name="mail_settings_add_success" xml:space="preserve">
+    <value>Mail settings added successfully.</value>
+  </data>
+  <data name="mail_settings_update_success" xml:space="preserve">
+    <value>Mail settings  updated successfully.</value>
+  </data>
+  <data name="file_delete_success" xml:space="preserve">
+    <value>The file deleted successfully.</value>
+  </data>
+  <data name="file_add_success" xml:space="preserve">
+    <value>The file added successfully.</value>
+  </data>
+  <data name="file_id_not_exist" xml:space="preserve">
+    <value>Oops ! File id is invalid or does not exists.</value>
+  </data>
+  <data name="file_delete_failed" xml:space="preserve">
+    <value>Operation failed.</value>
+  </data>
+  <data name="file_size_exceed" xml:space="preserve">
+    <value>File size must not exceed 25 MB.</value>
+  </data>
+  <data name="file_not_upload" xml:space="preserve">
+    <value>File not uploaded , Please upload file and try again.</value>
+  </data>
+  <data name="file_not_exist" xml:space="preserve">
+    <value>Oops ! File is invalid or does not exists.</value>
+  </data>
+  <data name="email_sent_successfully" xml:space="preserve">
+    <value>Email sent successfully.</value>
+  </data>
+  <data name="page_delete_failed" xml:space="preserve">
+    <value>Page deleted failed</value>
+  </data>
+  <data name="page_delete_success" xml:space="preserve">
+    <value>Page deleted success successfully.</value>
+  </data>
+  <data name="user_reset_password_success" xml:space="preserve">
+    <value>User Password changed successfully.</value>
+  </data>
+  <data name="project_add_success" xml:space="preserve">
+    <value>The project added successfully.</value>
+  </data>
+  <data name="project_id_not_exist" xml:space="preserve">
+    <value>Oops !The project id is invalid or does not exists.</value>
+  </data>
+  <data name="sales_quote_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete posted  Sales Quotation.</value>
+  </data>
+  <data name="sales_quote_group_empty" xml:space="preserve">
+    <value>Operation failed, You can't post Sales Quote because some groups is empty.</value>
+  </data>
+  <data name="sales_quote_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Sales Quotation.</value>
+  </data>
+  <data name="sales_quote_post_failed" xml:space="preserve">
+    <value>Sales Quotation post failed because it's posted .</value>
+  </data>
+  <data name="sales_quote_post_success" xml:space="preserve">
+    <value>Sales Quotation posted successfully.</value>
+  </data>
+  <data name="sales_quote_update_success" xml:space="preserve">
+    <value>Sales Quotation updated successfully.</value>
+  </data>
+  <data name="sales_quote_delete_success" xml:space="preserve">
+    <value>Sales  Quotation deleted successfully.</value>
+  </data>
+  <data name="item_cat_add_success" xml:space="preserve">
+    <value>Category added successfully.</value>
+  </data>
+  <data name="item_cat_id_not_exist" xml:space="preserve">
+    <value>Oops ! Product Category does not exists.</value>
+  </data>
+  <data name="item_cat_sub_add_success" xml:space="preserve">
+    <value>Category added successfully.</value>
+  </data>
+  <data name="item_cat_add_duplicate" xml:space="preserve">
+    <value>Operation failed, Product category already exists.</value>
+  </data>
+  <data name="item_cat_sub_add_duplicate" xml:space="preserve">
+    <value>Operation failed, Sub category already exists.</value>
+  </data>
+  <data name="item_cat_has_item" xml:space="preserve">
+    <value>Operation failed, You cannot delete this category because some products are assigned to this category.</value>
+  </data>
+  <data name="item_cat_sub_delete_failed" xml:space="preserve">
+    <value>Operation failed, You cannot delete this category because some products are assigned to this category.</value>
+  </data>
+  <data name="item_cat_sub_update_duplicate" xml:space="preserve">
+    <value>Operation failed, Sub Category name already exists.</value>
+  </data>
+  <data name="item_cat_update_duplicate" xml:space="preserve">
+    <value>Operation failed, Category name already exists.</value>
+  </data>
+  <data name="item_cat_delete_success" xml:space="preserve">
+    <value>Category deleted successfully.</value>
+  </data>
+  <data name="item_cat_has_subcat" xml:space="preserve">
+    <value>Operation failed, You cannot delete this category because some sub category are assigned to this category.</value>
+  </data>
+  <data name="item_cat_sub_delete_success" xml:space="preserve">
+    <value>Category deleted successfully.</value>
+  </data>
+  <data name="item_cat_sub_id_not_exist" xml:space="preserve">
+    <value>Oops ! Category does not exists.</value>
+  </data>
+  <data name="item_cat_sub_update_success" xml:space="preserve">
+    <value>Category updated successfully.</value>
+  </data>
+  <data name="item_cat_update_success" xml:space="preserve">
+    <value>Category updated successfully.</value>
+  </data>
+  <data name="item_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete this Item.</value>
+  </data>
+  <data name="item_delete_success" xml:space="preserve">
+    <value>Product deleted successfully.</value>
+  </data>
+  <data name="uom_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete Unit of Measure.</value>
+  </data>
+  <data name="uom_delete_success" xml:space="preserve">
+    <value>Unit of Measure deleted successfully.</value>
+  </data>
+  <data name="brand_add_duplicate" xml:space="preserve">
+    <value>Brand already  exists.</value>
+  </data>
+  <data name="brand_add_success" xml:space="preserve">
+    <value>Brand added successfully.</value>
+  </data>
+  <data name="brand_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete this Brand.</value>
+  </data>
+  <data name="brand_delete_success" xml:space="preserve">
+    <value>Brand deleted successfully.</value>
+  </data>
+  <data name="brand_id_not_exist" xml:space="preserve">
+    <value>Oops ! Currency id is invalid or does not exists.</value>
+  </data>
+  <data name="brand_update_duplicate" xml:space="preserve">
+    <value>Brand  already exists.</value>
+  </data>
+  <data name="brand_update_success" xml:space="preserve">
+    <value>Brand updated successfully.</value>
+  </data>
+  <data name="department_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete this Department .</value>
+  </data>
+  <data name="department_delete_success" xml:space="preserve">
+    <value>Department deleted successfully.</value>
+  </data>
+  <data name="role_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete Role.</value>
+  </data>
+  <data name="role_delete_success" xml:space="preserve">
+    <value>Role deleted successfully.</value>
+  </data>
+  <data name="department_add_duplicate" xml:space="preserve">
+    <value>Department already  exists.</value>
+  </data>
+  <data name="role_add_duplicate" xml:space="preserve">
+    <value>Role already  exists.</value>
+  </data>
+  <data name="uom_conversion_add_duplicate" xml:space="preserve">
+    <value>Unit Conversion rule already exists.</value>
+  </data>
+  <data name="uom_conversion_add_success" xml:space="preserve">
+    <value>Unit Conversion added successfully.</value>
+  </data>
+  <data name="uom_conversion_to_form_identical" xml:space="preserve">
+    <value>From Unit and To Unit are identical.</value>
+  </data>
+  <data name="uom_conversion_update_duplicate" xml:space="preserve">
+    <value>Unit Conversion rule already exists.</value>
+  </data>
+  <data name="uom_conversion_update_success" xml:space="preserve">
+    <value>Unit Conversion updated successfully.</value>
+  </data>
+  <data name="uom_add_duplicate" xml:space="preserve">
+    <value>Unit of Measure already exists.</value>
+  </data>
+  <data name="uom_update_duplicate" xml:space="preserve">
+    <value>Unit of Measure already exists.</value>
+  </data>
+  <data name="client_add_duplicate" xml:space="preserve">
+    <value>Operation failed, Client already exists.</value>
+  </data>
+  <data name="client_add_success" xml:space="preserve">
+    <value>Client added successfully.</value>
+  </data>
+  <data name="client_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete this Client.</value>
+  </data>
+  <data name="client_delete_success" xml:space="preserve">
+    <value>Client deleted successfully.</value>
+  </data>
+  <data name="client_id_not_exist" xml:space="preserve">
+    <value>Oops , Client is invalid or not exists .</value>
+  </data>
+  <data name="client_update_duplicat" xml:space="preserve">
+    <value>Client name already exists.</value>
+  </data>
+  <data name="client_update_success" xml:space="preserve">
+    <value>Client updated successfully.</value>
+  </data>
+  <data name="item_bom_clone_success" xml:space="preserve">
+    <value>Product BOM cloned successfully.</value>
+  </data>
+  <data name="item_bom_delete_success" xml:space="preserve">
+    <value>Product BOM deleted successfully.</value>
+  </data>
+  <data name="item_bom_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete Product BOMs.</value>
+  </data>
+  <data name="contact_add_duplicate" xml:space="preserve">
+    <value>Contact already  exists.</value>
+  </data>
+  <data name="contact_add_success" xml:space="preserve">
+    <value>Contact added successfully.</value>
+  </data>
+  <data name="contact_id_not_exist" xml:space="preserve">
+    <value>Oops , Contact id is invalid or not exists.</value>
+  </data>
+  <data name="contact_update_duplicat" xml:space="preserve">
+    <value>Contact name already exists.</value>
+  </data>
+  <data name="contact_update_success" xml:space="preserve">
+    <value>Contact updated successfully.</value>
+  </data>
+  <data name="contact_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete Contact.</value>
+  </data>
+  <data name="contact_delete_success" xml:space="preserve">
+    <value>Contact deleted successfully.</value>
+  </data>
+  <data name="job_order_update_success" xml:space="preserve">
+    <value>Job Order Information updated successfully.</value>
+  </data>
+  <data name="pro_invoice_item_add_failed_inactive" xml:space="preserve">
+    <value>Operation failed, You can't add this Product in Proforma Invoice.</value>
+  </data>
+  <data name="pro_invoice_item_delete_failed_inactive" xml:space="preserve">
+    <value>Operation failed, You can't delete this Product in Proforma Invoice.</value>
+  </data>
+  <data name="pro_invoice_item_update_failed_inactive" xml:space="preserve">
+    <value>Operation failed, You can't update this Product in Proforma Invoice.</value>
+  </data>
+  <data name="pro_invoice_master_item_exist" xml:space="preserve">
+    <value>Master Item already exists.</value>
+  </data>
+  <data name="pro_invoice_sub_item_exist" xml:space="preserve">
+    <value>Sub Item already exists.</value>
+  </data>
+  <data name="pro_invoice_update_inactive" xml:space="preserve">
+    <value>Operation failed, You can't update Proforma Invoice.</value>
+  </data>
+  <data name="sales_invoice_item_add_failed_inactive" xml:space="preserve">
+    <value>Operation failed, You can't add this Product in Sales Invoice.</value>
+  </data>
+  <data name="sales_invoice_item_delete_failed_inactive" xml:space="preserve">
+    <value>Operation failed, You can't delete this Product in Sales Invoice.</value>
+  </data>
+  <data name="sales_invoice_item_update_failed_inactive" xml:space="preserve">
+    <value>Operation failed, You can't update this Product in Sales Invoice.</value>
+  </data>
+  <data name="sales_invoice_update_inactive" xml:space="preserve">
+    <value>Operation failed, You can't update Sales Invoice.</value>
+  </data>
+  <data name="pro_invoice_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete Proforma Invoice.</value>
+  </data>
+  <data name="pro_invoice_delete_success" xml:space="preserve">
+    <value>Proforma Invoice deleted successfully.</value>
+  </data>
+  <data name="pro_invoice_id_not_exist" xml:space="preserve">
+    <value>Oops ! Proforma Invoice id is invalid or does not exists.</value>
+  </data>
+  <data name="pro_invoice_cancel_failed" xml:space="preserve">
+    <value>Operation failed, You can't cancel Proforma Invoice.</value>
+  </data>
+  <data name="pro_invoice_cancel_success" xml:space="preserve">
+    <value>Invoice canceled successfully.</value>
+  </data>
+  <data name="pro_invoice_no_records" xml:space="preserve">
+    <value>Operation failed, You can't convert empty Proforma Invoice .</value>
+  </data>
+  <data name="job_order_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete Job Order.</value>
+  </data>
+  <data name="job_order_delete_success" xml:space="preserve">
+    <value>Job Order deleted successfully.</value>
+  </data>
+  <data name="job_order_group_empty" xml:space="preserve">
+    <value>Operation failed, You can't post Job Order because some groups is empty.</value>
+  </data>
+  <data name="job_order_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Job Order.</value>
+  </data>
+  <data name="job_order_post_inactive" xml:space="preserve">
+    <value>Operation failed, You can't post Job Order.</value>
+  </data>
+  <data name="job_order_post_success" xml:space="preserve">
+    <value>Job Order posted successfully.</value>
+  </data>
+  <data name="prod_order_invalid_quantity" xml:space="preserve">
+    <value>Operation failed, Invalid Production Item Quantity.</value>
+  </data>
+  <data name="prod_order_bom_not_empty" xml:space="preserve">
+    <value>Operation failed.</value>
+  </data>
+  <data name="prod_order_inactive" xml:space="preserve">
+    <value>Operation failed, You can't adjust inactive Production Order.</value>
+  </data>
+  <data name="prod_order_rm_add_success" xml:space="preserve">
+    <value>Bill of Raw Materials added successfully.</value>
+  </data>
+  <data name="prod_order_rm_delete_success" xml:space="preserve">
+    <value>Bill of Raw Materials deleted successfully.</value>
+  </data>
+  <data name="prod_order_item_exist" xml:space="preserve">
+    <value>Oops ! This Product already exists in list.</value>
+  </data>
+  <data name="prod_order_post_inactive" xml:space="preserve">
+    <value>Oops ! Production Order already posted.</value>
+  </data>
+  <data name="prod_order_post_success" xml:space="preserve">
+    <value>Production Order posted successfully.</value>
+  </data>
+  <data name="prod_order_rm_insufficient_quantity" xml:space="preserve">
+    <value>Operation failed, The available quantity in store is insufficient for the order.</value>
+  </data>
+  <data name="bom_category_update_success" xml:space="preserve">
+    <value>Bill Of Material Category Updated successfully.</value>
+  </data>
+  <data name="Location_assign_update_success" xml:space="preserve">
+    <value>Locations Assignment updated successfully.</value>
+  </data>
+  <data name="request_rm_inactive" xml:space="preserve">
+    <value>request_rm_inactive</value>
+  </data>
+  <data name="request_rm_item_exist" xml:space="preserve">
+    <value>request_rm_item_exist</value>
+  </data>
+  <data name="request_rm_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete posted Raw Material Request.</value>
+  </data>
+  <data name="request_rm_delete_success" xml:space="preserve">
+    <value>Raw Material Request deleted  successfully.</value>
+  </data>
+  <data name="request_rm_insufficient_quantity" xml:space="preserve">
+    <value>You can't post Request because the stock has insufficient quantity of raw materials.</value>
+  </data>
+  <data name="request_rm_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Request Raw Material.</value>
+  </data>
+  <data name="request_rm_post_success" xml:space="preserve">
+    <value>Request Raw Material posted successfully.</value>
+  </data>
+  <data name="prod_order_cancel_failed" xml:space="preserve">
+    <value>Operation failed, You can't cancel this Production Order.</value>
+  </data>
+  <data name="prod_order_cancel_success" xml:space="preserve">
+    <value>Production Order canceled successfully.</value>
+  </data>
+  <data name="prod_order_delete_success" xml:space="preserve">
+    <value>Production Order deleted  successfully.</value>
+  </data>
+  <data name="prod_order_rm_request_cancel_failed" xml:space="preserve">
+    <value>Operation failed, You should handle draft Request Material before cancel Production Order.</value>
+  </data>
+  <data name="job_order_update_inactive" xml:space="preserve">
+    <value>Operation failed, You can't edit Job Order.</value>
+  </data>
+  <data name="prod_order_invalid_item" xml:space="preserve">
+    <value>Operation failed, Please select a product and try again.</value>
+  </data>
+  <data name="prod_order_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Production Order.</value>
+  </data>
+  <data name="payment_terms_add_duplicate" xml:space="preserve">
+    <value>payment term already exists.</value>
+  </data>
+  <data name="prod_order_close_fully_success" xml:space="preserve">
+    <value>Production Order fully closed successfully.</value>
+  </data>
+  <data name="prod_order_close_inactive" xml:space="preserve">
+    <value>Operation failed, Order is inactive.</value>
+  </data>
+  <data name="prod_order_close_partially_bofore" xml:space="preserve">
+    <value>prod_order_close_partially_bofore</value>
+  </data>
+  <data name="prod_order_close_partial_success" xml:space="preserve">
+    <value>prod_order_close_partial_success</value>
+  </data>
+  <data name="prod_order_close_order_qty_error" xml:space="preserve">
+    <value>Operation failed, Production Item Quantity error.</value>
+  </data>
+  <data name="prod_order_close_rm_qty_error" xml:space="preserve">
+    <value>Operation failed, Raw Material Item Quantity error.</value>
+  </data>
+  <data name="prod_order_rm_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Raw Material.</value>
+  </data>
+  <data name="job_order_sub_item_exist" xml:space="preserve">
+    <value>Oops ! This Product already exist in Job Order.</value>
+  </data>
+  <data name="no_items_selected" xml:space="preserve">
+    <value>No items selected</value>
+  </data>
+  <data name="item_bom_clone_empty" xml:space="preserve">
+    <value>Operation failed, You can't clone BOMs because it's empty.</value>
+  </data>
+  <data name="item_bom_m_clone_failed" xml:space="preserve">
+    <value>Operation failed, some of the selected products already have BOM.</value>
+  </data>
+  <data name="item_bulk_update_not_select" xml:space="preserve">
+    <value>Operation failed.</value>
+  </data>
+  <data name="item_bulk_update_success" xml:space="preserve">
+    <value>Producta settings updated successfully.</value>
+  </data>
+  <data name="item_bulk_update_failed" xml:space="preserve">
+    <value>Operation failed.</value>
+  </data>
+  <data name="man_assembly_order_delete_success" xml:space="preserve">
+    <value>Assembly Order deleted  successfully.</value>
+  </data>
+  <data name="man_assembly_order_post_inactive" xml:space="preserve">
+    <value>Operation failed, You can't post Assembly Order.</value>
+  </data>
+  <data name="man_assembly_order_post_success" xml:space="preserve">
+    <value>Assembly Order posted successfully.</value>
+  </data>
+  <data name="man_assembly_order_bom_not_empty" xml:space="preserve">
+    <value>Operation failed, Assembly Order BOM not empty.</value>
+  </data>
+  <data name="man_assembly_order_header_update_inactive" xml:space="preserve">
+    <value>Operation failed, You can't update Assembly.</value>
+  </data>
+  <data name="man_assembly_order_inactive" xml:space="preserve">
+    <value>man_assembly_order_inactive</value>
+  </data>
+  <data name="man_assembly_order_item_bom_exists" xml:space="preserve">
+    <value>Operation failed, this Product already exists in the bill of material list.</value>
+  </data>
+  <data name="man_assembly_order_item_bom_not_exists" xml:space="preserve">
+    <value>Operation failed, Product not exists in the bill of material list.</value>
+  </data>
+  <data name="man_assembly_order_main_item_exists" xml:space="preserve">
+    <value>Operation failed, You can't add Assembly product in materials list.</value>
+  </data>
+  <data name="man_assembly_update_inactive" xml:space="preserve">
+    <value>Operation failed, You can't update Assembly Order.</value>
+  </data>
+  <data name="item_bom_main_item_exists" xml:space="preserve">
+    <value>Operation failed, Product is already exists.</value>
+  </data>
+  <data name="prod_order_main_item_exists" xml:space="preserve">
+    <value>Operation failed, You can't add Production product in materials list.</value>
+  </data>
+  <data name="sales_order_quote_create_success" xml:space="preserve">
+    <value>Sales Order created successfully.</value>
+  </data>
+  <data name="sales_quote_order_create_failed" xml:space="preserve">
+    <value>Operation failed, You can't create Sales Order from inactive Quotation.</value>
+  </data>
+  <data name="job_order_close_success" xml:space="preserve">
+    <value>Job Order closed successfully.</value>
+  </data>
+  <data name="job_order_cancel_success" xml:space="preserve">
+    <value>Job Order canceled successfully.</value>
+  </data>
+  <data name="job_order_trans_cancel_failed" xml:space="preserve">
+    <value>Operation can't be completed because some operations are not complete yet in Job Order.</value>
+  </data>
+  <data name="job_order_trans_close_failed" xml:space="preserve">
+    <value>Operation can't be completed because some operations are not complete yet in Job Order.</value>
+  </data>
+  <data name="prod_order_close_rm_pending" xml:space="preserve">
+    <value>Operation failed, Some Raw Material Transfer are still Draft.</value>
+  </data>
+  <data name="inv_transfer_empty" xml:space="preserve">
+    <value>Operation failed, You can't post empty Stock Transfer.</value>
+  </data>
+  <data name="supplier_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete Supplier.</value>
+  </data>
+  <data name="supplier_delete_success" xml:space="preserve">
+    <value>Supplier deleted successfully.</value>
+  </data>
+  <data name="user_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete User.</value>
+  </data>
+  <data name="user_delete_success" xml:space="preserve">
+    <value>User deleted successfully.</value>
+  </data>
+  <data name="audit_id_not_exist" xml:space="preserve">
+    <value>Oops ! Audit id is invalid or does not exists.</value>
+  </data>
+  <data name="sales_invoice_retailuser_permission" xml:space="preserve">
+    <value>Operation failed, You can't do it in this Sales Invoice.</value>
+  </data>
+  <data name="department_update_failed" xml:space="preserve">
+    <value>Operation failed, You can't update this Department.</value>
+  </data>
+  <data name="item_replaced_duplicate" xml:space="preserve">
+    <value>Product already replaced.</value>
+  </data>
+  <data name="item_replaced_success" xml:space="preserve">
+    <value>Product replaced successfully.</value>
+  </data>
+  <data name="sales_invoice_post_low_cost" xml:space="preserve">
+    <value>Operation failed, You can't post Sales Invoice.</value>
+  </data>
+  <data name="proj_add_duplicate" xml:space="preserve">
+    <value>Project already exists.</value>
+  </data>
+  <data name="proj_add_success" xml:space="preserve">
+    <value>Project added successfully.</value>
+  </data>
+  <data name="proj_id_not_exist" xml:space="preserve">
+    <value>Oops ! Projectid is invalid or does not exists.</value>
+  </data>
+  <data name="man_modif_order_bom_not_empty" xml:space="preserve">
+    <value>Operation failed, Modification Order BOM not empty.</value>
+  </data>
+  <data name="man_modif_order_delete_failed" xml:space="preserve">
+    <value>Operation failed, You can't delete Modification Order.</value>
+  </data>
+  <data name="man_modif_order_delete_success" xml:space="preserve">
+    <value>Modification Order deleted  successfully.</value>
+  </data>
+  <data name="man_modif_order_header_update_inactive" xml:space="preserve">
+    <value>Operation failed, You can't update Modification.</value>
+  </data>
+  <data name="man_modif_order_id_not_exist" xml:space="preserve">
+    <value>Oops ! Modification Order id is invalid or does not exists.</value>
+  </data>
+  <data name="man_modif_order_inactive" xml:space="preserve">
+    <value>Operation failed, the Modification Order is inactive.</value>
+  </data>
+  <data name="man_modif_order_insufficient_quantity" xml:space="preserve">
+    <value>You can't post Modification Order because the stock has insufficient quantity of materials.</value>
+  </data>
+  <data name="man_modif_order_item_bom_exists" xml:space="preserve">
+    <value>Operation failed, this Product already exists in the bill of material list.</value>
+  </data>
+  <data name="man_modif_order_item_bom_not_exists" xml:space="preserve">
+    <value>Operation failed, Product not exists in the bill of material list.</value>
+  </data>
+  <data name="man_modif_order_line_update_inactive" xml:space="preserve">
+    <value>Operation failed, You can't update Modification Line.</value>
+  </data>
+  <data name="man_modif_order_main_item_exists" xml:space="preserve">
+    <value>Operation failed, You can't add Modification product in materials list.</value>
+  </data>
+  <data name="man_modif_order_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Modification Order bill of materials.</value>
+  </data>
+  <data name="man_modif_order_post_failed" xml:space="preserve">
+    <value>Operation failed, You can't post Modification Order.</value>
+  </data>
+  <data name="man_modif_order_post_inactive" xml:space="preserve">
+    <value>Operation failed, You can't post Modification Order.</value>
+  </data>
+  <data name="man_modif_order_post_success" xml:space="preserve">
+    <value>Modification Order posted successfully.</value>
+  </data>
+  <data name="man_modif_order_rm_no_records" xml:space="preserve">
+    <value>Operation failed, You can't post empty Raw Material.</value>
+  </data>
+  <data name="man_modif_order_update_success" xml:space="preserve">
+    <value>Modification Order Information updated successfully.</value>
+  </data>
+  <data name="man_modif_update_inactive" xml:space="preserve">
+    <value>Operation failed, You can't update Modification Order.</value>
+  </data>
+  <data name="man_modif_order_cancel_failed" xml:space="preserve">
+    <value>Operation failed, You can't cancel Modification Order.</value>
+  </data>
+  <data name="man_modif_order_rm_request_cancel_failed" xml:space="preserve">
+    <value>Operation failed, You should handle draft Request Material before cancel Production Order.</value>
+  </data>
+  <data name="man_modif_order_cancel_success" xml:space="preserve">
+    <value>Modification Order canceled successfully.</value>
+  </data>
+  <data name="man_modif_order_close_fully_success" xml:space="preserve">
+    <value>Modification Order fully closed successfully.</value>
+  </data>
+  <data name="man_modif_order_close_inactive" xml:space="preserve">
+    <value>Operation failed, Order is inactive.</value>
+  </data>
+  <data name="sales_invoice_add_success" xml:space="preserve">
+    <value>Sales invoice information added successfully.</value>
+  </data>
+  <data name="sales_invoice_create_from_quote_failed" xml:space="preserve">
+    <value>Create Sales Invoice Failed.</value>
+  </data>
+  <data name="sales_order_create_from_quote_failed" xml:space="preserve">
+    <value>Create Sales Order Failed.</value>
+  </data>
+  <data name="sales_invoice_clone_success" xml:space="preserve">
+    <value>Sales Invoice cloned successfully.</value>
+  </data>
+  <data name="sales_order_clone_success" xml:space="preserve">
+    <value>Sales Order cloned successfully.</value>
+  </data>
+  <data name="sales_order_clone_failed" xml:space="preserve">
+    <value>Sales Order clone failed.</value>
+  </data>
+  <data name="sales_invoice_clone_failed" xml:space="preserve">
+    <value>Sales Invoice clone failed.</value>
+  </data>
+  <data name="ticket_settings_update_success" xml:space="preserve">
+    <value>ticket_settings_update_success.</value>
+  </data>
+  <data name="template_id_not_exist" xml:space="preserve">
+    <value>Oops , Email Template is invalid or not exists .</value>
+  </data>
+  <data name="template_update_success" xml:space="preserve">
+    <value>Email Template updated successfully.</value>
+  </data>
+  <data name="proj_expenses_add_success" xml:space="preserve">
+    <value>Expenses added successfully.</value>
+  </data>
+  <data name="proj_visit_add_success" xml:space="preserve">
+    <value>The Visit added successfully.</value>
+  </data>
+  <data name="proj_update_success" xml:space="preserve">
+    <value>Project  updated successfully.</value>
+  </data>
+  <data name="proj_inactive" xml:space="preserve">
+    <value>Operation failed, Project in close status.</value>
+  </data>
+  <data name="proj_visit_delete_success" xml:space="preserve">
+    <value>The Visit deleted successfully.</value>
+  </data>
+  <data name="proj_visit_updat_success" xml:space="preserve">
+    <value>The Visit updated successfully.</value>
+  </data>
+  <data name="proj_expense_add_success" xml:space="preserve">
+    <value>Expense added successfully.</value>
+  </data>
+  <data name="proj_expense_delete_success" xml:space="preserve">
+    <value>Expense deleted successfully.</value>
+  </data>
+  <data name="proj_expense_update_success" xml:space="preserve">
+    <value>Expense updated successfully.</value>
+  </data>
+  <data name="proj_purchase_add_success" xml:space="preserve">
+    <value>Purchases added successfully.</value>
+  </data>
+  <data name="proj_sales_add_success" xml:space="preserve">
+    <value>Sales added successfully.</value>
+  </data>
+  <data name="scm_grn_cancel_success" xml:space="preserve">
+    <value>Material Receipt canceled successfully.</value>
+  </data>
+  <data name="scm_grn_cancel_failed" xml:space="preserve">
+    <value>Operation failed, You can't cancel Material Receipt because it's colsed.</value>
+  </data>
+  <data name="scm_grn_cancel_insufficient_quantity" xml:space="preserve">
+    <value>Operation failed, You can't cancel Material Receipt because the stock has  insufficient quantity.</value>
+  </data>
+  <data name="scm_po_cancel_success" xml:space="preserve">
+    <value>Purchase Order canceled succesfully.</value>
+  </data>
+  <data name="scm_po_post_success" xml:space="preserve">
+    <value>Purchase Order posted succesfully.</value>
+  </data>
+  <data name="scm_po_cancel_failed" xml:space="preserve">
+    <value>Operation failed, You can't canceled Purchase Order becuace it's has Material Receipt.</value>
+  </data>
+  <data name="settings_operation_success" xml:space="preserve">
+    <value>Operation successfully.</value>
+  </data>
+  <data name="scm_po_item_exist" xml:space="preserve">
+    <value>Operation failed, Product is already exists.</value>
+  </data>
+</root>

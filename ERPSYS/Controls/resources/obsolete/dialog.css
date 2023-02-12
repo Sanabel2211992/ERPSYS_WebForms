@@ -1,0 +1,33 @@
+﻿.tbl-ucsearch {
+
+} 
+.uc-field-title {
+    font-size: 0.9em;
+    color: #151515;
+    font-weight: 400;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+   /*text-align:right;*/
+}
+
+.uc-field-val input {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+}
+
+
+.uc-field-val textarea {
+    color: rgb(33, 33, 00) !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    resize: none;
+}
+
+.uc-field-val Select {
+    color: rgb(33, 33, 00) !important;
+    font-family: Book Antiqua !important;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}

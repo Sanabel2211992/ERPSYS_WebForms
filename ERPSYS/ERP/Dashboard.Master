@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Dashboard.master.cs" Inherits="ERPSYS.ERP.Dashboard" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<%@ Register Src="~/Controls/Common/UCHeader.ascx" TagPrefix="uc1" TagName="UCHeader" %>
+<%@ Register Src="~/Controls/Common/UCFooter.ascx" TagPrefix="uc1" TagName="UCFooter" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>FTMC ERP</title>
+    <link href="~/ERP/resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/ERP/resources/css/main.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setTimeout(updateSession, 1000 * 120); //
+        });
+
+        function updateSession() {
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "../../WebService/KeepAlive.asmx/KeepMeAlive",
+                data: "{}",
+                dataType: "json"
+                ,
+                success: function (response) {
+                    //alert("successfully!!!");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    //alert(xhr.responseText);
+                }
+            });
+            setTimeout(updateSession, 1000 * 120);
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height: 100%">
+            <telerik:RadScriptManager ID="rsManager" runat="server">
+                <Scripts>
+                    <asp:ScriptReference Path="~/ERP/resources/js/ddmenu.js" />
+                </Scripts>
+            </telerik:RadScriptManager>
+        </div>
+        <div class="header">
+            <uc1:UCHeader runat="server" ID="UCHeader" />
+        </div>
+        <div>
+            <div>
+                <asp:ContentPlaceHolder ID="cphMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="footer">
+            <uc1:UCFooter runat="server" ID="UCFooter" />
+        </div>
+    </form>
+</body>
+</html>
